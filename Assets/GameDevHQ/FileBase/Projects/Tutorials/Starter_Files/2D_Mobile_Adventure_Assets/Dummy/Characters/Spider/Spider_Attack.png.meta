@@ -1,12 +1,120 @@
 fileFormatVersion: 2
 guid: 1a1302a3eeb6ade4c8752ee54801b6c9
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 857896185839556718
+    second: Spider_Attack_0
+  - first:
+      213: 2398538015460877697
+    second: Spider_Attack_1
+  - first:
+      213: 7684751393892299153
+    second: Spider_Attack_2
+  - first:
+      213: 603225945861213092
+    second: Spider_Attack_3
+  - first:
+      213: -1588523883212844327
+    second: Spider_Attack_4
+  - first:
+      213: 5577301503908604631
+    second: Spider_Attack_5
+  - first:
+      213: -7335753375035327994
+    second: Spider_Attack_6
+  - first:
+      213: 5422845618240816960
+    second: Spider_Attack_7
+  - first:
+      213: 2583963240797540595
+    second: Spider_Attack_8
+  - first:
+      213: -3035824133463445831
+    second: Spider_Attack_9
+  - first:
+      213: 7254115398583282079
+    second: Spider_Attack_10
+  - first:
+      213: -5089329002140226645
+    second: Spider_Attack_11
+  - first:
+      213: 305258753410751267
+    second: Spider_Attack_12
+  - first:
+      213: -6489037155556928678
+    second: Spider_Attack_13
+  - first:
+      213: -3263673649181936384
+    second: Spider_Attack_14
+  - first:
+      213: 633992512703889615
+    second: Spider_Attack_15
+  - first:
+      213: -4423641455320837212
+    second: Spider_Attack_16
+  - first:
+      213: 8511238924470695966
+    second: Spider_Attack_17
+  - first:
+      213: 488054727143333835
+    second: Spider_Attack_18
+  - first:
+      213: 2016193143526757942
+    second: Spider_Attack_19
+  - first:
+      213: -6318742531295012761
+    second: Spider_Attack_20
+  - first:
+      213: 7491975696038667972
+    second: Spider_Attack_21
+  - first:
+      213: 6523649514278165589
+    second: Spider_Attack_22
+  - first:
+      213: 2487796960675557916
+    second: Spider_Attack_23
+  - first:
+      213: -95004306938928369
+    second: Spider_Attack_24
+  - first:
+      213: 4434129198671563915
+    second: Spider_Attack_25
+  - first:
+      213: -7632096836809849147
+    second: Spider_Attack_26
+  - first:
+      213: 376817878070822159
+    second: Spider_Attack_27
+  - first:
+      213: 1127074815319215079
+    second: Spider_Attack_28
+  - first:
+      213: -7215695272772625566
+    second: Spider_Attack_29
+  - first:
+      213: 3032391476906995699
+    second: Spider_Attack_30
+  - first:
+      213: 1988233474168534848
+    second: Spider_Attack_31
+  - first:
+      213: -1403765220601640928
+    second: Spider_Attack_32
+  - first:
+      213: 7257775548977121497
+    second: Spider_Attack_33
+  - first:
+      213: -7832420902472137513
+    second: Spider_Attack_34
+  - first:
+      213: 403582181034639619
+    second: Spider_Attack_35
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,13 +142,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,14 +157,15 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -70,13 +179,793 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Spider_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 814
+        width: 217
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e681123290cd7eb00800000000000000
+      internalID: 857896185839556718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 817
+        width: 215
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185e0d7fd91594120800000000000000
+      internalID: 2398538015460877697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 821
+        width: 211
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191732c5da8b5aa60800000000000000
+      internalID: 7684751393892299153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 820
+        width: 205
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab4b5e3dc61f5800800000000000000
+      internalID: 603225945861213092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 821
+        width: 197
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2dfdfc1fd64f9e0800000000000000
+      internalID: -1588523883212844327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 821
+        width: 188
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da69b10b2e866d40800000000000000
+      internalID: 5577301503908604631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 820
+        width: 178
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a75210c2b223a90800000000000000
+      internalID: -7335753375035327994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 820
+        width: 168
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047070bbb51d14b40800000000000000
+      internalID: 5422845618240816960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 564
+        width: 158
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0976880e41cd320800000000000000
+      internalID: 2583963240797540595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 565
+        width: 148
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be6a5cf8069ed5d0800000000000000
+      internalID: -3035824133463445831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 566
+        width: 140
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f996f34658bcba460800000000000000
+      internalID: 7254115398583282079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 532
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baba65aac321f59b0800000000000000
+      internalID: -5089329002140226645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 516
+        width: 252
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b50a9083f7c3400800000000000000
+      internalID: 305258753410751267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 516
+        width: 252
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53d7b0661f42f5a0800000000000000
+      internalID: -6489037155556928678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 516
+        width: 252
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00535b59b1a15b2d0800000000000000
+      internalID: -3263673649181936384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 516
+        width: 252
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc009fdc4d46cc800800000000000000
+      internalID: 633992512703889615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 260
+        width: 252
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3d8e9a8811c92c0800000000000000
+      internalID: -4423641455320837212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 264
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18bd8315befd1670800000000000000
+      internalID: 8511238924470695966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 268
+        width: 252
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf1452403be5c600800000000000000
+      internalID: 488054727143333835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 260
+        width: 252
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6369d765bf4fafb10800000000000000
+      internalID: 2016193143526757942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 268
+        width: 248
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768120b55215f48a0800000000000000
+      internalID: -6318742531295012761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 268
+        width: 252
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6ae3c8338d8f760800000000000000
+      internalID: 7491975696038667972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 260
+        width: 252
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c13b16ba8a88a50800000000000000
+      internalID: 6523649514278165589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 268
+        width: 248
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12fc52a72e668220800000000000000
+      internalID: 2487796960675557916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 55
+        width: 160
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03e5c0161a7eaef0800000000000000
+      internalID: -95004306938928369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c810f5301398d30800000000000000
+      internalID: 4434129198671563915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 55
+        width: 148
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6019e0d58551690800000000000000
+      internalID: -7632096836809849147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f058d671dd9ba3500800000000000000
+      internalID: 376817878070822159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_28
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 53
+        width: 147
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb0462b29c24af00800000000000000
+      internalID: 1127074815319215079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_29
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 116
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b1cea3163bcdb90800000000000000
+      internalID: -7215695272772625566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_30
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 52
+        width: 165
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffa6f06bf7351a20800000000000000
+      internalID: 3032391476906995699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_31
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 116
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0473b568fcf979b10800000000000000
+      internalID: 1988233474168534848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_32
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 53
+        width: 189
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028cdf528f2d48ce0800000000000000
+      internalID: -1403765220601640928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_33
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 112
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d80c40986cc8b460800000000000000
+      internalID: 7257775548977121497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_34
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 53
+        width: 209
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4cdc8efa6ad4390800000000000000
+      internalID: -7832420902472137513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Attack_35
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 46
+        width: 218
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3014f3afadfc99500800000000000000
+      internalID: 403582181034639619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1894ba1772b19464eb3c857d7d765773
     internalID: 0
     vertices: []
     indices: 
