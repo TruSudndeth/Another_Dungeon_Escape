@@ -110,6 +110,201 @@ TextureImporter:
   - first:
       213: 403582181034639619
     second: Spider_Attack_35
+  - first:
+      213: 3590193143500804260
+    second: Spider_Attack_0
+  - first:
+      213: -1352840517018713987
+    second: Spider_Attack_1
+  - first:
+      213: 8477465003272808397
+    second: Spider_Attack_2
+  - first:
+      213: -2199604636453777949
+    second: Spider_Attack_3
+  - first:
+      213: 768762214767154976
+    second: Spider_Attack_4
+  - first:
+      213: -7416017598545038147
+    second: Spider_Attack_5
+  - first:
+      213: 6208074794081275119
+    second: Spider_Attack_6
+  - first:
+      213: -225963351571257926
+    second: Spider_Attack_7
+  - first:
+      213: 851986567765447786
+    second: Spider_Attack_8
+  - first:
+      213: 6816436398337893169
+    second: Spider_Attack_9
+  - first:
+      213: 8695195470298818386
+    second: Spider_Attack_10
+  - first:
+      213: 8418596050375571993
+    second: Spider_Attack_11
+  - first:
+      213: -8123061617860925250
+    second: Spider_Attack_12
+  - first:
+      213: -4403037419591369817
+    second: Spider_Attack_13
+  - first:
+      213: -3403760636972300201
+    second: Spider_Attack_14
+  - first:
+      213: -1495151873517477904
+    second: Spider_Attack_15
+  - first:
+      213: 8631201412099031318
+    second: Spider_Attack_16
+  - first:
+      213: -5309759108336163558
+    second: Spider_Attack_17
+  - first:
+      213: -1022398963921684298
+    second: Spider_Attack_18
+  - first:
+      213: -3682430933988829840
+    second: Spider_Attack_19
+  - first:
+      213: -2211210272657286120
+    second: Spider_Attack_20
+  - first:
+      213: -7009891809869841514
+    second: Spider_Attack_21
+  - first:
+      213: -2579661322490619111
+    second: Spider_Attack_22
+  - first:
+      213: -227315445815574123
+    second: Spider_Attack_23
+  - first:
+      213: -5864023618511851848
+    second: Spider_Attack_24
+  - first:
+      213: 1624792793431589021
+    second: Spider_Attack_25
+  - first:
+      213: 5483644626222022146
+    second: Spider_Attack_26
+  - first:
+      213: -9173535506833879347
+    second: Spider_Attack_27
+  - first:
+      213: 5143015449997467914
+    second: Spider_Attack_28
+  - first:
+      213: 7497522998082389231
+    second: Spider_Attack_29
+  - first:
+      213: -7975881895310785661
+    second: Spider_Attack_30
+  - first:
+      213: 2312615927290972674
+    second: Spider_Attack_31
+  - first:
+      213: -7552619463641887263
+    second: Spider_Attack_32
+  - first:
+      213: 6402327842948982547
+    second: Spider_Attack_33
+  - first:
+      213: 7776415478760883439
+    second: Spider_Attack_34
+  - first:
+      213: -6783882590981254835
+    second: Spider_Attack_35
+  - first:
+      213: 1061490067497505005
+    second: Spider_Attack_36
+  - first:
+      213: 3510468701641024140
+    second: Spider_Attack_37
+  - first:
+      213: 6593069547580878974
+    second: Spider_Attack_38
+  - first:
+      213: 1187454800056300335
+    second: Spider_Attack_39
+  - first:
+      213: -7391723471336827725
+    second: Spider_Attack_40
+  - first:
+      213: 6346081866146152617
+    second: Spider_Attack_41
+  - first:
+      213: 4860383329820648898
+    second: Spider_Attack_42
+  - first:
+      213: -6466110114321839826
+    second: Spider_Attack_43
+  - first:
+      213: -5420253444602648576
+    second: Spider_Attack_44
+  - first:
+      213: -3831672880785970657
+    second: Spider_Attack_45
+  - first:
+      213: -2883809765403101856
+    second: Spider_Attack_46
+  - first:
+      213: -800889907187128959
+    second: Spider_Attack_47
+  - first:
+      213: 4329027690248172177
+    second: Spider_Attack_48
+  - first:
+      213: 1257281263143194787
+    second: Spider_Attack_49
+  - first:
+      213: 3288671095964639494
+    second: Spider_Attack_50
+  - first:
+      213: 2296373233997968079
+    second: Spider_Attack_51
+  - first:
+      213: 384273476637920576
+    second: Spider_Attack_52
+  - first:
+      213: 4042646395454579300
+    second: Spider_Attack_53
+  - first:
+      213: -4722255105779900504
+    second: Spider_Attack_54
+  - first:
+      213: -2709002269322648564
+    second: Spider_Attack_55
+  - first:
+      213: 8704894227964111360
+    second: Spider_Attack_56
+  - first:
+      213: 1356575092536063446
+    second: Spider_Attack_57
+  - first:
+      213: -4202911413211890831
+    second: Spider_Attack_58
+  - first:
+      213: -6381750320723159355
+    second: Spider_Attack_59
+  - first:
+      213: 5562342843941954601
+    second: Spider_Attack_60
+  - first:
+      213: 8450224110419302497
+    second: Spider_Attack_61
+  - first:
+      213: -5109409132836997154
+    second: Spider_Attack_62
+  - first:
+      213: 4657851571753813603
+    second: Spider_Attack_63
+  - first:
+      213: -568281038883706934
+    second: Spider_Attack_64
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -210,10 +405,10 @@ TextureImporter:
       name: Spider_Attack_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 814
-        width: 217
-        height: 63
+        x: 0
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,8 +416,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e681123290cd7eb00800000000000000
-      internalID: 857896185839556718
+      spriteID: 4a0986174ade2d130800000000000000
+      internalID: 3590193143500804260
       vertices: []
       indices: 
       edges: []
@@ -231,10 +426,10 @@ TextureImporter:
       name: Spider_Attack_1
       rect:
         serializedVersion: 2
-        x: 269
-        y: 817
-        width: 215
-        height: 60
+        x: 256
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,8 +437,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 185e0d7fd91594120800000000000000
-      internalID: 2398538015460877697
+      spriteID: d700859a7beb93de0800000000000000
+      internalID: -1352840517018713987
       vertices: []
       indices: 
       edges: []
@@ -252,10 +447,10 @@ TextureImporter:
       name: Spider_Attack_2
       rect:
         serializedVersion: 2
-        x: 525
-        y: 821
-        width: 211
-        height: 60
+        x: 512
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,8 +458,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 191732c5da8b5aa60800000000000000
-      internalID: 7684751393892299153
+      spriteID: dc7a1e3418106a570800000000000000
+      internalID: 8477465003272808397
       vertices: []
       indices: 
       edges: []
@@ -273,10 +468,10 @@ TextureImporter:
       name: Spider_Attack_3
       rect:
         serializedVersion: 2
-        x: 781
-        y: 820
-        width: 205
-        height: 71
+        x: 768
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,8 +479,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ab4b5e3dc61f5800800000000000000
-      internalID: 603225945861213092
+      spriteID: 3edced5bc3f6971e0800000000000000
+      internalID: -2199604636453777949
       vertices: []
       indices: 
       edges: []
@@ -294,10 +489,10 @@ TextureImporter:
       name: Spider_Attack_4
       rect:
         serializedVersion: 2
-        x: 1037
-        y: 821
-        width: 197
-        height: 80
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,8 +500,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d2dfdfc1fd64f9e0800000000000000
-      internalID: -1588523883212844327
+      spriteID: 02750f749213baa00800000000000000
+      internalID: 768762214767154976
       vertices: []
       indices: 
       edges: []
@@ -315,10 +510,10 @@ TextureImporter:
       name: Spider_Attack_5
       rect:
         serializedVersion: 2
-        x: 1293
-        y: 821
-        width: 188
-        height: 91
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,8 +521,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7da69b10b2e866d40800000000000000
-      internalID: 5577301503908604631
+      spriteID: db47dae2943051990800000000000000
+      internalID: -7416017598545038147
       vertices: []
       indices: 
       edges: []
@@ -336,10 +531,10 @@ TextureImporter:
       name: Spider_Attack_6
       rect:
         serializedVersion: 2
-        x: 1549
-        y: 820
-        width: 178
-        height: 105
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,8 +542,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60a75210c2b223a90800000000000000
-      internalID: -7335753375035327994
+      spriteID: fec45482223872650800000000000000
+      internalID: 6208074794081275119
       vertices: []
       indices: 
       edges: []
@@ -357,10 +552,10 @@ TextureImporter:
       name: Spider_Attack_7
       rect:
         serializedVersion: 2
-        x: 1805
-        y: 820
-        width: 168
-        height: 119
+        x: 1792
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,8 +563,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 047070bbb51d14b40800000000000000
-      internalID: 5422845618240816960
+      spriteID: ab5a65967873ddcf0800000000000000
+      internalID: -225963351571257926
       vertices: []
       indices: 
       edges: []
@@ -378,10 +573,10 @@ TextureImporter:
       name: Spider_Attack_8
       rect:
         serializedVersion: 2
-        x: 13
-        y: 564
-        width: 158
-        height: 131
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,8 +584,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f0976880e41cd320800000000000000
-      internalID: 2583963240797540595
+      spriteID: a645015f44dd2db00800000000000000
+      internalID: 851986567765447786
       vertices: []
       indices: 
       edges: []
@@ -399,10 +594,10 @@ TextureImporter:
       name: Spider_Attack_9
       rect:
         serializedVersion: 2
-        x: 269
-        y: 565
-        width: 148
-        height: 143
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,8 +605,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9be6a5cf8069ed5d0800000000000000
-      internalID: -3035824133463445831
+      spriteID: 13329fc0ac8d89e50800000000000000
+      internalID: 6816436398337893169
       vertices: []
       indices: 
       edges: []
@@ -420,10 +615,10 @@ TextureImporter:
       name: Spider_Attack_10
       rect:
         serializedVersion: 2
-        x: 525
-        y: 566
-        width: 140
-        height: 148
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,8 +626,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f996f34658bcba460800000000000000
-      internalID: 7254115398583282079
+      spriteID: 2572fbb063a8ba870800000000000000
+      internalID: 8695195470298818386
       vertices: []
       indices: 
       edges: []
@@ -441,10 +636,10 @@ TextureImporter:
       name: Spider_Attack_11
       rect:
         serializedVersion: 2
-        x: 772
-        y: 532
-        width: 244
-        height: 208
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,8 +647,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baba65aac321f59b0800000000000000
-      internalID: -5089329002140226645
+      spriteID: 91a7422118cd4d470800000000000000
+      internalID: 8418596050375571993
       vertices: []
       indices: 
       edges: []
@@ -462,10 +657,10 @@ TextureImporter:
       name: Spider_Attack_12
       rect:
         serializedVersion: 2
-        x: 1028
-        y: 516
-        width: 252
-        height: 244
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,8 +668,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32b50a9083f7c3400800000000000000
-      internalID: 305258753410751267
+      spriteID: eb82ac21f76154f80800000000000000
+      internalID: -8123061617860925250
       vertices: []
       indices: 
       edges: []
@@ -483,10 +678,10 @@ TextureImporter:
       name: Spider_Attack_13
       rect:
         serializedVersion: 2
-        x: 1284
-        y: 516
-        width: 252
-        height: 244
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,8 +689,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a53d7b0661f42f5a0800000000000000
-      internalID: -6489037155556928678
+      spriteID: 7abf0809bc445e2c0800000000000000
+      internalID: -4403037419591369817
       vertices: []
       indices: 
       edges: []
@@ -504,10 +699,10 @@ TextureImporter:
       name: Spider_Attack_14
       rect:
         serializedVersion: 2
-        x: 1540
-        y: 516
-        width: 252
-        height: 248
+        x: 1536
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,8 +710,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00535b59b1a15b2d0800000000000000
-      internalID: -3263673649181936384
+      spriteID: 7580fcc0cb963c0d0800000000000000
+      internalID: -3403760636972300201
       vertices: []
       indices: 
       edges: []
@@ -525,10 +720,10 @@ TextureImporter:
       name: Spider_Attack_15
       rect:
         serializedVersion: 2
-        x: 1796
-        y: 516
-        width: 252
-        height: 248
+        x: 1792
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,8 +731,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc009fdc4d46cc800800000000000000
-      internalID: 633992512703889615
+      spriteID: 0ff1bbdea47204be0800000000000000
+      internalID: -1495151873517477904
       vertices: []
       indices: 
       edges: []
@@ -546,10 +741,10 @@ TextureImporter:
       name: Spider_Attack_16
       rect:
         serializedVersion: 2
-        x: 4
-        y: 260
-        width: 252
-        height: 244
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,8 +752,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a3d8e9a8811c92c0800000000000000
-      internalID: -4423641455320837212
+      spriteID: 611430944ff28c770800000000000000
+      internalID: 8631201412099031318
       vertices: []
       indices: 
       edges: []
@@ -567,10 +762,10 @@ TextureImporter:
       name: Spider_Attack_17
       rect:
         serializedVersion: 2
-        x: 260
-        y: 264
-        width: 252
-        height: 236
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,8 +773,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e18bd8315befd1670800000000000000
-      internalID: 8511238924470695966
+      spriteID: a156ab82932ff46b0800000000000000
+      internalID: -5309759108336163558
       vertices: []
       indices: 
       edges: []
@@ -588,10 +783,10 @@ TextureImporter:
       name: Spider_Attack_18
       rect:
         serializedVersion: 2
-        x: 516
-        y: 268
-        width: 252
-        height: 228
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,8 +794,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcf1452403be5c600800000000000000
-      internalID: 488054727143333835
+      spriteID: 6b878b82f85bfc1f0800000000000000
+      internalID: -1022398963921684298
       vertices: []
       indices: 
       edges: []
@@ -609,10 +804,10 @@ TextureImporter:
       name: Spider_Attack_19
       rect:
         serializedVersion: 2
-        x: 772
-        y: 260
-        width: 252
-        height: 244
+        x: 768
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -620,8 +815,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6369d765bf4fafb10800000000000000
-      internalID: 2016193143526757942
+      spriteID: 0759fad639065ecc0800000000000000
+      internalID: -3682430933988829840
       vertices: []
       indices: 
       edges: []
@@ -630,10 +825,10 @@ TextureImporter:
       name: Spider_Attack_20
       rect:
         serializedVersion: 2
-        x: 1028
-        y: 268
-        width: 248
-        height: 224
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -641,8 +836,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 768120b55215f48a0800000000000000
-      internalID: -6318742531295012761
+      spriteID: 81c5196f8f33051e0800000000000000
+      internalID: -2211210272657286120
       vertices: []
       indices: 
       edges: []
@@ -651,10 +846,10 @@ TextureImporter:
       name: Spider_Attack_21
       rect:
         serializedVersion: 2
-        x: 1284
-        y: 268
-        width: 252
-        height: 228
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,8 +857,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c6ae3c8338d8f760800000000000000
-      internalID: 7491975696038667972
+      spriteID: 69bb9c6f98cd7be90800000000000000
+      internalID: -7009891809869841514
       vertices: []
       indices: 
       edges: []
@@ -672,10 +867,10 @@ TextureImporter:
       name: Spider_Attack_22
       rect:
         serializedVersion: 2
-        x: 1540
-        y: 260
-        width: 252
-        height: 248
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -683,8 +878,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55c13b16ba8a88a50800000000000000
-      internalID: 6523649514278165589
+      spriteID: 91bd120e1b3333cd0800000000000000
+      internalID: -2579661322490619111
       vertices: []
       indices: 
       edges: []
@@ -693,10 +888,10 @@ TextureImporter:
       name: Spider_Attack_23
       rect:
         serializedVersion: 2
-        x: 1796
-        y: 268
-        width: 248
-        height: 228
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -704,8 +899,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c12fc52a72e668220800000000000000
-      internalID: 2487796960675557916
+      spriteID: 59104307ec968dcf0800000000000000
+      internalID: -227315445815574123
       vertices: []
       indices: 
       edges: []
@@ -714,10 +909,10 @@ TextureImporter:
       name: Spider_Attack_24
       rect:
         serializedVersion: 2
-        x: 12
-        y: 55
-        width: 160
-        height: 145
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -725,8 +920,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f03e5c0161a7eaef0800000000000000
-      internalID: -95004306938928369
+      spriteID: 8bea910869dce9ea0800000000000000
+      internalID: -5864023618511851848
       vertices: []
       indices: 
       edges: []
@@ -735,10 +930,10 @@ TextureImporter:
       name: Spider_Attack_25
       rect:
         serializedVersion: 2
-        x: 192
-        y: 112
-        width: 16
-        height: 20
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -746,8 +941,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8c810f5301398d30800000000000000
-      internalID: 4434129198671563915
+      spriteID: d90ca16ef6c6c8610800000000000000
+      internalID: 1624792793431589021
       vertices: []
       indices: 
       edges: []
@@ -756,10 +951,10 @@ TextureImporter:
       name: Spider_Attack_26
       rect:
         serializedVersion: 2
-        x: 268
-        y: 55
-        width: 148
-        height: 137
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,8 +962,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c6019e0d58551690800000000000000
-      internalID: -7632096836809849147
+      spriteID: 20e7174ebb1d91c40800000000000000
+      internalID: 5483644626222022146
       vertices: []
       indices: 
       edges: []
@@ -777,10 +972,10 @@ TextureImporter:
       name: Spider_Attack_27
       rect:
         serializedVersion: 2
-        x: 448
-        y: 116
-        width: 16
-        height: 16
+        x: 768
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -788,8 +983,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f058d671dd9ba3500800000000000000
-      internalID: 376817878070822159
+      spriteID: dcecbbc5f0e01b080800000000000000
+      internalID: -9173535506833879347
       vertices: []
       indices: 
       edges: []
@@ -798,10 +993,10 @@ TextureImporter:
       name: Spider_Attack_28
       rect:
         serializedVersion: 2
-        x: 524
-        y: 53
-        width: 147
-        height: 125
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -809,8 +1004,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eb0462b29c24af00800000000000000
-      internalID: 1127074815319215079
+      spriteID: a01e17b8d49af5740800000000000000
+      internalID: 5143015449997467914
       vertices: []
       indices: 
       edges: []
@@ -819,10 +1014,10 @@ TextureImporter:
       name: Spider_Attack_29
       rect:
         serializedVersion: 2
-        x: 708
-        y: 116
-        width: 12
-        height: 12
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -830,8 +1025,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26b1cea3163bcdb90800000000000000
-      internalID: -7215695272772625566
+      spriteID: fe4c504717d8c0860800000000000000
+      internalID: 7497522998082389231
       vertices: []
       indices: 
       edges: []
@@ -840,10 +1035,10 @@ TextureImporter:
       name: Spider_Attack_30
       rect:
         serializedVersion: 2
-        x: 781
-        y: 52
-        width: 165
-        height: 116
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -851,113 +1046,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ffa6f06bf7351a20800000000000000
-      internalID: 3032391476906995699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spider_Attack_31
-      rect:
-        serializedVersion: 2
-        x: 964
-        y: 116
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0473b568fcf979b10800000000000000
-      internalID: 1988233474168534848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spider_Attack_32
-      rect:
-        serializedVersion: 2
-        x: 1036
-        y: 53
-        width: 189
-        height: 127
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 028cdf528f2d48ce0800000000000000
-      internalID: -1403765220601640928
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spider_Attack_33
-      rect:
-        serializedVersion: 2
-        x: 1216
-        y: 112
-        width: 16
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d80c40986cc8b460800000000000000
-      internalID: 7257775548977121497
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spider_Attack_34
-      rect:
-        serializedVersion: 2
-        x: 1292
-        y: 53
-        width: 209
-        height: 123
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d4cdc8efa6ad4390800000000000000
-      internalID: -7832420902472137513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spider_Attack_35
-      rect:
-        serializedVersion: 2
-        x: 1548
-        y: 46
-        width: 218
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3014f3afadfc99500800000000000000
-      internalID: 403582181034639619
+      spriteID: 383088b9ca9ff4190800000000000000
+      internalID: -7975881895310785661
       vertices: []
       indices: 
       edges: []

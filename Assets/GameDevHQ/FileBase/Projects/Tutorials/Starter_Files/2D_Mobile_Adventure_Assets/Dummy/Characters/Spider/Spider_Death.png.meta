@@ -95,6 +95,99 @@ TextureImporter:
   - first:
       213: -6373307215172268941
     second: Spider_Death_30
+  - first:
+      213: 9020299856700170161
+    second: Spider_Death_0
+  - first:
+      213: -7468778225621649212
+    second: Spider_Death_1
+  - first:
+      213: 4380091057680464198
+    second: Spider_Death_2
+  - first:
+      213: -1147294843015766088
+    second: Spider_Death_3
+  - first:
+      213: 8168603717876412085
+    second: Spider_Death_4
+  - first:
+      213: -9119704207596942118
+    second: Spider_Death_5
+  - first:
+      213: 1059494158396759575
+    second: Spider_Death_6
+  - first:
+      213: 2319042727761649620
+    second: Spider_Death_7
+  - first:
+      213: -731280521778951848
+    second: Spider_Death_8
+  - first:
+      213: -2162466439255652932
+    second: Spider_Death_9
+  - first:
+      213: 9047262712877293942
+    second: Spider_Death_10
+  - first:
+      213: 5352169650609839244
+    second: Spider_Death_11
+  - first:
+      213: 5626728895121847515
+    second: Spider_Death_12
+  - first:
+      213: -5045599159722083946
+    second: Spider_Death_13
+  - first:
+      213: -4720349253409598579
+    second: Spider_Death_14
+  - first:
+      213: -5269020370676213849
+    second: Spider_Death_15
+  - first:
+      213: 4018652248800736124
+    second: Spider_Death_16
+  - first:
+      213: -3768256163342348463
+    second: Spider_Death_17
+  - first:
+      213: -8700008828998837846
+    second: Spider_Death_18
+  - first:
+      213: 9061859094795211834
+    second: Spider_Death_19
+  - first:
+      213: -3601153442435376792
+    second: Spider_Death_20
+  - first:
+      213: 6736084757488390782
+    second: Spider_Death_21
+  - first:
+      213: -2579729165297138656
+    second: Spider_Death_22
+  - first:
+      213: 1550055333647001134
+    second: Spider_Death_23
+  - first:
+      213: 4437373328620945285
+    second: Spider_Death_24
+  - first:
+      213: -3525174293492208624
+    second: Spider_Death_25
+  - first:
+      213: -7738187310452088681
+    second: Spider_Death_26
+  - first:
+      213: 51114998044872492
+    second: Spider_Death_27
+  - first:
+      213: 85480659879312789
+    second: Spider_Death_28
+  - first:
+      213: -1384925879092313523
+    second: Spider_Death_29
+  - first:
+      213: 4583691425426886844
+    second: Spider_Death_30
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -195,10 +288,10 @@ TextureImporter:
       name: Spider_Death_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 814
-        width: 217
-        height: 63
+        x: 0
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,8 +299,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcc93b00f8e8c8c40800000000000000
-      internalID: 5515940388465253583
+      spriteID: 1bfde169dea8e2d70800000000000000
+      internalID: 9020299856700170161
       vertices: []
       indices: 
       edges: []
@@ -216,10 +309,10 @@ TextureImporter:
       name: Spider_Death_1
       rect:
         serializedVersion: 2
-        x: 273
-        y: 818
-        width: 213
-        height: 84
+        x: 256
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,8 +320,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72a33b0658bb285a0800000000000000
-      internalID: -6520443128951653849
+      spriteID: 4c836ab66c1995890800000000000000
+      internalID: -7468778225621649212
       vertices: []
       indices: 
       edges: []
@@ -237,10 +330,10 @@ TextureImporter:
       name: Spider_Death_2
       rect:
         serializedVersion: 2
-        x: 534
-        y: 820
-        width: 190
-        height: 138
+        x: 512
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,8 +341,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c24e63a6424990ce0800000000000000
-      internalID: -1438455721846447060
+      spriteID: 649b8e83c9539cc30800000000000000
+      internalID: 4380091057680464198
       vertices: []
       indices: 
       edges: []
@@ -258,10 +351,10 @@ TextureImporter:
       name: Spider_Death_3
       rect:
         serializedVersion: 2
-        x: 798
-        y: 820
-        width: 147
-        height: 156
+        x: 768
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,8 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d715948845e0956f0800000000000000
-      internalID: -695508911225482883
+      spriteID: 8bf586d3b6df310f0800000000000000
+      internalID: -1147294843015766088
       vertices: []
       indices: 
       edges: []
@@ -279,10 +372,10 @@ TextureImporter:
       name: Spider_Death_4
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 816
-        width: 161
-        height: 157
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +383,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5ca2709b8c73b7c0800000000000000
-      internalID: -4056761900464952230
+      spriteID: 5be65f26dc5bc5170800000000000000
+      internalID: 8168603717876412085
       vertices: []
       indices: 
       edges: []
@@ -300,10 +393,10 @@ TextureImporter:
       name: Spider_Death_5
       rect:
         serializedVersion: 2
-        x: 1315
-        y: 809
-        width: 162
-        height: 131
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,8 +404,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c05dede7edadc7660800000000000000
-      internalID: 7385018138126898444
+      spriteID: adc8c89675d407180800000000000000
+      internalID: -9119704207596942118
       vertices: []
       indices: 
       edges: []
@@ -321,10 +414,10 @@ TextureImporter:
       name: Spider_Death_6
       rect:
         serializedVersion: 2
-        x: 1554
-        y: 825
-        width: 169
-        height: 79
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,8 +425,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 931c18d8325354f50800000000000000
-      internalID: 6864951633810407737
+      spriteID: 71e17d8d25414be00800000000000000
+      internalID: 1059494158396759575
       vertices: []
       indices: 
       edges: []
@@ -342,10 +435,10 @@ TextureImporter:
       name: Spider_Death_7
       rect:
         serializedVersion: 2
-        x: 1815
-        y: 806
-        width: 154
-        height: 102
+        x: 1792
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,8 +446,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18559a55053154590800000000000000
-      internalID: -7690719552909781631
+      spriteID: 4df9f27f215ee2020800000000000000
+      internalID: 2319042727761649620
       vertices: []
       indices: 
       edges: []
@@ -363,10 +456,10 @@ TextureImporter:
       name: Spider_Death_8
       rect:
         serializedVersion: 2
-        x: 33
-        y: 536
-        width: 147
-        height: 112
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,8 +467,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c893e07cc69ec110800000000000000
-      internalID: 1283128748658628804
+      spriteID: 859043c6d38f9d5f0800000000000000
+      internalID: -731280521778951848
       vertices: []
       indices: 
       edges: []
@@ -384,10 +477,10 @@ TextureImporter:
       name: Spider_Death_9
       rect:
         serializedVersion: 2
-        x: 296
-        y: 532
-        width: 141
-        height: 129
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,8 +488,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f12025400e1f6d80800000000000000
-      internalID: -8255346605438262791
+      spriteID: cb586711b306df1e0800000000000000
+      internalID: -2162466439255652932
       vertices: []
       indices: 
       edges: []
@@ -405,10 +498,10 @@ TextureImporter:
       name: Spider_Death_10
       rect:
         serializedVersion: 2
-        x: 553
-        y: 548
-        width: 139
-        height: 114
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,8 +509,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d561054e02209bb0800000000000000
-      internalID: -4931404147288087084
+      spriteID: 67120beb0855e8d70800000000000000
+      internalID: 9047262712877293942
       vertices: []
       indices: 
       edges: []
@@ -426,10 +519,10 @@ TextureImporter:
       name: Spider_Death_11
       rect:
         serializedVersion: 2
-        x: 804
-        y: 562
-        width: 140
-        height: 91
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,8 +530,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a42efbd3f05518f50800000000000000
-      internalID: 6881875229547684426
+      spriteID: c8cd932b0f9b64a40800000000000000
+      internalID: 5352169650609839244
       vertices: []
       indices: 
       edges: []
@@ -447,10 +540,10 @@ TextureImporter:
       name: Spider_Death_12
       rect:
         serializedVersion: 2
-        x: 1055
-        y: 558
-        width: 141
-        height: 88
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,8 +551,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4459973178f0abb30800000000000000
-      internalID: 4303769466727667012
+      spriteID: bd4f9215e18261e40800000000000000
+      internalID: 5626728895121847515
       vertices: []
       indices: 
       edges: []
@@ -468,10 +561,10 @@ TextureImporter:
       name: Spider_Death_13
       rect:
         serializedVersion: 2
-        x: 1305
-        y: 554
-        width: 144
-        height: 92
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,8 +572,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eeab5b9fff187af30800000000000000
-      internalID: 4586777681906219758
+      spriteID: 69971c50c4e6af9b0800000000000000
+      internalID: -5045599159722083946
       vertices: []
       indices: 
       edges: []
@@ -489,10 +582,10 @@ TextureImporter:
       name: Spider_Death_14
       rect:
         serializedVersion: 2
-        x: 1555
-        y: 550
-        width: 157
-        height: 95
+        x: 1536
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,8 +593,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dfa7ad92ad111940800000000000000
-      internalID: 5265022023639740371
+      spriteID: d839dbe0d53fd7eb0800000000000000
+      internalID: -4720349253409598579
       vertices: []
       indices: 
       edges: []
@@ -510,10 +603,10 @@ TextureImporter:
       name: Spider_Death_15
       rect:
         serializedVersion: 2
-        x: 1806
-        y: 551
-        width: 168
-        height: 92
+        x: 1792
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,8 +614,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d06d06c0f1f3367f0800000000000000
-      internalID: -620582921062787571
+      spriteID: 7a71c8ba3eda0e6b0800000000000000
+      internalID: -5269020370676213849
       vertices: []
       indices: 
       edges: []
@@ -531,10 +624,10 @@ TextureImporter:
       name: Spider_Death_16
       rect:
         serializedVersion: 2
-        x: 14
-        y: 288
-        width: 162
-        height: 93
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -542,8 +635,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f18278788f36b4e30800000000000000
-      internalID: 4488791372681652255
+      spriteID: c73b795bdee15c730800000000000000
+      internalID: 4018652248800736124
       vertices: []
       indices: 
       edges: []
@@ -552,10 +645,10 @@ TextureImporter:
       name: Spider_Death_17
       rect:
         serializedVersion: 2
-        x: 278
-        y: 281
-        width: 152
-        height: 105
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -563,8 +656,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0305f24d46dfd0830800000000000000
-      internalID: 4039163050319630384
+      spriteID: 15f8d490cf674bbc0800000000000000
+      internalID: -3768256163342348463
       vertices: []
       indices: 
       edges: []
@@ -573,10 +666,10 @@ TextureImporter:
       name: Spider_Death_18
       rect:
         serializedVersion: 2
-        x: 539
-        y: 272
-        width: 150
-        height: 128
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,8 +677,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e63efe3bbb1be780800000000000000
-      internalID: -8652791768032594203
+      spriteID: aa913cc801c534780800000000000000
+      internalID: -8700008828998837846
       vertices: []
       indices: 
       edges: []
@@ -594,10 +687,10 @@ TextureImporter:
       name: Spider_Death_19
       rect:
         serializedVersion: 2
-        x: 807
-        y: 281
-        width: 138
-        height: 125
+        x: 768
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -605,8 +698,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a0904aa14e7747b0800000000000000
-      internalID: -5240080820927950682
+      spriteID: a3459edb5d032cd70800000000000000
+      internalID: 9061859094795211834
       vertices: []
       indices: 
       edges: []
@@ -615,10 +708,10 @@ TextureImporter:
       name: Spider_Death_20
       rect:
         serializedVersion: 2
-        x: 1070
-        y: 291
-        width: 131
-        height: 114
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -626,8 +719,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50fb08f3f93e0c1e0800000000000000
-      internalID: -2179491946542612731
+      spriteID: 869d6f91602260ec0800000000000000
+      internalID: -3601153442435376792
       vertices: []
       indices: 
       edges: []
@@ -636,10 +729,10 @@ TextureImporter:
       name: Spider_Death_21
       rect:
         serializedVersion: 2
-        x: 1324
-        y: 294
-        width: 133
-        height: 109
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -647,8 +740,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e33a6fa35a008bcf0800000000000000
-      internalID: -236438270778105026
+      spriteID: e72d40bc5616b7d50800000000000000
+      internalID: 6736084757488390782
       vertices: []
       indices: 
       edges: []
@@ -657,10 +750,10 @@ TextureImporter:
       name: Spider_Death_22
       rect:
         serializedVersion: 2
-        x: 1584
-        y: 297
-        width: 129
-        height: 103
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,8 +761,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07fd3158d56806550800000000000000
-      internalID: 6152064827210850160
+      spriteID: 024cfbdfdf5f23cd0800000000000000
+      internalID: -2579729165297138656
       vertices: []
       indices: 
       edges: []
@@ -678,10 +771,10 @@ TextureImporter:
       name: Spider_Death_23
       rect:
         serializedVersion: 2
-        x: 1843
-        y: 299
-        width: 125
-        height: 101
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -689,8 +782,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c278a14cab1dca30800000000000000
-      internalID: 4237073251075388097
+      spriteID: e26aa380d17e28510800000000000000
+      internalID: 1550055333647001134
       vertices: []
       indices: 
       edges: []
@@ -699,10 +792,10 @@ TextureImporter:
       name: Spider_Death_24
       rect:
         serializedVersion: 2
-        x: 50
-        y: 44
-        width: 126
-        height: 99
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,8 +803,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97a26367b60d79420800000000000000
-      internalID: 2636805266812054137
+      spriteID: 58f7e3c3887b49d30800000000000000
+      internalID: 4437373328620945285
       vertices: []
       indices: 
       edges: []
@@ -720,10 +813,10 @@ TextureImporter:
       name: Spider_Death_25
       rect:
         serializedVersion: 2
-        x: 306
-        y: 45
-        width: 126
-        height: 98
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -731,8 +824,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e590e375ff2a74cf0800000000000000
-      internalID: -268066435241211554
+      spriteID: 01cee0148a0141fc0800000000000000
+      internalID: -3525174293492208624
       vertices: []
       indices: 
       edges: []
@@ -741,10 +834,10 @@ TextureImporter:
       name: Spider_Death_26
       rect:
         serializedVersion: 2
-        x: 562
-        y: 46
-        width: 126
-        height: 96
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -752,8 +845,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f80293651ab234520800000000000000
-      internalID: 2685037774779261071
+      spriteID: 790611bc3af6c9490800000000000000
+      internalID: -7738187310452088681
       vertices: []
       indices: 
       edges: []
@@ -762,10 +855,10 @@ TextureImporter:
       name: Spider_Death_27
       rect:
         serializedVersion: 2
-        x: 817
-        y: 45
-        width: 126
-        height: 98
+        x: 768
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -773,8 +866,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d24b5e5116fb6f730800000000000000
-      internalID: 4032620940056966189
+      spriteID: c2fc825e1d895b000800000000000000
+      internalID: 51114998044872492
       vertices: []
       indices: 
       edges: []
@@ -783,10 +876,10 @@ TextureImporter:
       name: Spider_Death_28
       rect:
         serializedVersion: 2
-        x: 1072
-        y: 43
-        width: 127
-        height: 100
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -794,8 +887,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 052174b512ea306a0800000000000000
-      internalID: -6484147580194844080
+      spriteID: 59db54f0530bf2100800000000000000
+      internalID: 85480659879312789
       vertices: []
       indices: 
       edges: []
@@ -804,10 +897,10 @@ TextureImporter:
       name: Spider_Death_29
       rect:
         serializedVersion: 2
-        x: 1327
-        y: 45
-        width: 128
-        height: 98
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -815,8 +908,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0df2e99ddd2d6ca50800000000000000
-      internalID: 6541147359082852304
+      spriteID: d4205782041c7cce0800000000000000
+      internalID: -1384925879092313523
       vertices: []
       indices: 
       edges: []
@@ -825,10 +918,10 @@ TextureImporter:
       name: Spider_Death_30
       rect:
         serializedVersion: 2
-        x: 1580
-        y: 48
-        width: 131
-        height: 95
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -836,8 +929,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37c0933ead67d87a0800000000000000
-      internalID: -6373307215172268941
+      spriteID: cb0d294e01b8c9f30800000000000000
+      internalID: 4583691425426886844
       vertices: []
       indices: 
       edges: []

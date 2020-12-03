@@ -143,6 +143,147 @@ TextureImporter:
   - first:
       213: -267646633469350393
     second: Skeleton_Death_46
+  - first:
+      213: 416723716704192255
+    second: Skeleton_Death_0
+  - first:
+      213: -5705317061846512081
+    second: Skeleton_Death_1
+  - first:
+      213: -8512041651546750247
+    second: Skeleton_Death_2
+  - first:
+      213: 4779285758619917696
+    second: Skeleton_Death_3
+  - first:
+      213: -6455134031635447217
+    second: Skeleton_Death_4
+  - first:
+      213: 9097711881908430810
+    second: Skeleton_Death_5
+  - first:
+      213: 1502256140996401711
+    second: Skeleton_Death_6
+  - first:
+      213: 858969767780600785
+    second: Skeleton_Death_7
+  - first:
+      213: 690524999718233055
+    second: Skeleton_Death_8
+  - first:
+      213: -8342208813439488419
+    second: Skeleton_Death_9
+  - first:
+      213: 514495322972405801
+    second: Skeleton_Death_10
+  - first:
+      213: 8460194664289737817
+    second: Skeleton_Death_11
+  - first:
+      213: 362703574669609767
+    second: Skeleton_Death_12
+  - first:
+      213: -2137225932996682925
+    second: Skeleton_Death_13
+  - first:
+      213: -6172181524086997275
+    second: Skeleton_Death_14
+  - first:
+      213: -1183147270911769172
+    second: Skeleton_Death_15
+  - first:
+      213: 5116919621122803317
+    second: Skeleton_Death_16
+  - first:
+      213: 7425515962772980873
+    second: Skeleton_Death_17
+  - first:
+      213: -5232659880258435060
+    second: Skeleton_Death_18
+  - first:
+      213: -6060547662968192878
+    second: Skeleton_Death_19
+  - first:
+      213: -3069560043698803054
+    second: Skeleton_Death_20
+  - first:
+      213: -8872994714904955364
+    second: Skeleton_Death_21
+  - first:
+      213: 1846607181072801234
+    second: Skeleton_Death_22
+  - first:
+      213: -4129666889738165976
+    second: Skeleton_Death_23
+  - first:
+      213: -8421589845183814858
+    second: Skeleton_Death_24
+  - first:
+      213: 7945009337090298394
+    second: Skeleton_Death_25
+  - first:
+      213: -3653452907277696612
+    second: Skeleton_Death_26
+  - first:
+      213: -214062265211723220
+    second: Skeleton_Death_27
+  - first:
+      213: 6513660827255918913
+    second: Skeleton_Death_28
+  - first:
+      213: -6547024042261118815
+    second: Skeleton_Death_29
+  - first:
+      213: 8320185775735601213
+    second: Skeleton_Death_30
+  - first:
+      213: 8677457650279450352
+    second: Skeleton_Death_31
+  - first:
+      213: -8076404155488378120
+    second: Skeleton_Death_32
+  - first:
+      213: -1403153557593914880
+    second: Skeleton_Death_33
+  - first:
+      213: -2334178777506612807
+    second: Skeleton_Death_34
+  - first:
+      213: -3820602732807017960
+    second: Skeleton_Death_35
+  - first:
+      213: -5733346561966622830
+    second: Skeleton_Death_36
+  - first:
+      213: 1659584078766386208
+    second: Skeleton_Death_37
+  - first:
+      213: -6387089033089023345
+    second: Skeleton_Death_38
+  - first:
+      213: 1280569505754574190
+    second: Skeleton_Death_39
+  - first:
+      213: 8580536395480005136
+    second: Skeleton_Death_40
+  - first:
+      213: 3234680213175075417
+    second: Skeleton_Death_41
+  - first:
+      213: 4307930227445089872
+    second: Skeleton_Death_42
+  - first:
+      213: -3759504277973299151
+    second: Skeleton_Death_43
+  - first:
+      213: -8507509928792560596
+    second: Skeleton_Death_44
+  - first:
+      213: 6048846306954687187
+    second: Skeleton_Death_45
+  - first:
+      213: -686890112891973542
+    second: Skeleton_Death_46
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -243,10 +384,10 @@ TextureImporter:
       name: Skeleton_Death_0
       rect:
         serializedVersion: 2
-        x: 81
-        y: 1337
-        width: 84
-        height: 104
+        x: 0
+        y: 1280
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,8 +395,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d1084a827bdd7770800000000000000
-      internalID: 8610279347594985942
+      spriteID: ff642af230088c500800000000000000
+      internalID: 416723716704192255
       vertices: []
       indices: 
       edges: []
@@ -264,10 +405,10 @@ TextureImporter:
       name: Skeleton_Death_1
       rect:
         serializedVersion: 2
-        x: 337
-        y: 1336
-        width: 94
-        height: 104
+        x: 256
+        y: 1280
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,8 +416,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dec801e0648084d0800000000000000
-      internalID: -3134359789022687535
+      spriteID: f2ec9ad3c54a2d0b0800000000000000
+      internalID: -5705317061846512081
       vertices: []
       indices: 
       edges: []
@@ -285,10 +426,10 @@ TextureImporter:
       name: Skeleton_Death_2
       rect:
         serializedVersion: 2
-        x: 593
-        y: 1336
-        width: 99
-        height: 104
+        x: 512
+        y: 1280
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,8 +437,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e539432f1d719470800000000000000
-      internalID: 8399632352712144361
+      spriteID: 9d20a3677372fd980800000000000000
+      internalID: -8512041651546750247
       vertices: []
       indices: 
       edges: []
@@ -306,10 +447,10 @@ TextureImporter:
       name: Skeleton_Death_3
       rect:
         serializedVersion: 2
-        x: 849
-        y: 1336
-        width: 103
-        height: 104
+        x: 768
+        y: 1280
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,8 +458,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e38b7a0539e0e33e0800000000000000
-      internalID: -2072202752667699138
+      spriteID: 08d9f92631f635240800000000000000
+      internalID: 4779285758619917696
       vertices: []
       indices: 
       edges: []
@@ -327,10 +468,10 @@ TextureImporter:
       name: Skeleton_Death_4
       rect:
         serializedVersion: 2
-        x: 1105
-        y: 1337
-        width: 104
-        height: 103
+        x: 1024
+        y: 1280
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,8 +479,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b18a559f34db12360800000000000000
-      internalID: 7143198583629916187
+      spriteID: f4285da8cc1ca66a0800000000000000
+      internalID: -6455134031635447217
       vertices: []
       indices: 
       edges: []
@@ -348,10 +489,10 @@ TextureImporter:
       name: Skeleton_Death_5
       rect:
         serializedVersion: 2
-        x: 1361
-        y: 1338
-        width: 104
-        height: 102
+        x: 1280
+        y: 1280
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,8 +500,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4716a21c5d08dc830800000000000000
-      internalID: 4093069291906818420
+      spriteID: ad7a00e31c0914e70800000000000000
+      internalID: 9097711881908430810
       vertices: []
       indices: 
       edges: []
@@ -369,10 +510,10 @@ TextureImporter:
       name: Skeleton_Death_6
       rect:
         serializedVersion: 2
-        x: 1617
-        y: 1338
-        width: 105
-        height: 102
+        x: 1536
+        y: 1280
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,8 +521,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46636f331e66a7380800000000000000
-      internalID: -8972746190156843420
+      spriteID: f2a5dbd300619d410800000000000000
+      internalID: 1502256140996401711
       vertices: []
       indices: 
       edges: []
@@ -390,10 +531,10 @@ TextureImporter:
       name: Skeleton_Death_7
       rect:
         serializedVersion: 2
-        x: 1873
-        y: 1338
-        width: 106
-        height: 99
+        x: 1792
+        y: 1280
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,8 +542,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 326ce089bcc4f1b00800000000000000
-      internalID: 801443696008414755
+      spriteID: 1dbcc59e37cabeb00800000000000000
+      internalID: 858969767780600785
       vertices: []
       indices: 
       edges: []
@@ -411,10 +552,10 @@ TextureImporter:
       name: Skeleton_Death_8
       rect:
         serializedVersion: 2
-        x: 81
-        y: 1082
-        width: 108
-        height: 98
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,8 +563,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0258127b9e81d63c0800000000000000
-      internalID: -4364805071773268704
+      spriteID: fd36bb424dc359900800000000000000
+      internalID: 690524999718233055
       vertices: []
       indices: 
       edges: []
@@ -432,10 +573,10 @@ TextureImporter:
       name: Skeleton_Death_9
       rect:
         serializedVersion: 2
-        x: 338
-        y: 1082
-        width: 109
-        height: 94
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,8 +584,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4cae0acb35750600800000000000000
-      internalID: 433881838764600398
+      spriteID: d5e6ec878458a3c80800000000000000
+      internalID: -8342208813439488419
       vertices: []
       indices: 
       edges: []
@@ -453,10 +594,10 @@ TextureImporter:
       name: Skeleton_Death_10
       rect:
         serializedVersion: 2
-        x: 593
-        y: 1082
-        width: 114
-        height: 90
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,8 +605,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b577fd000bbda2380800000000000000
-      internalID: -8995135756743772325
+      spriteID: 920ce5435cad32700800000000000000
+      internalID: 514495322972405801
       vertices: []
       indices: 
       edges: []
@@ -474,10 +615,10 @@ TextureImporter:
       name: Skeleton_Death_11
       rect:
         serializedVersion: 2
-        x: 849
-        y: 1082
-        width: 116
-        height: 87
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,8 +626,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eebb4e0b1853a9750800000000000000
-      internalID: 6312416658848005102
+      spriteID: 95c15af1936a86570800000000000000
+      internalID: 8460194664289737817
       vertices: []
       indices: 
       edges: []
@@ -495,10 +636,10 @@ TextureImporter:
       name: Skeleton_Death_12
       rect:
         serializedVersion: 2
-        x: 1105
-        y: 1081
-        width: 120
-        height: 82
+        x: 1024
+        y: 1024
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -506,8 +647,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a9a4c8d81a967a60800000000000000
-      internalID: 7671488446778878373
+      spriteID: 72b42febaf4980500800000000000000
+      internalID: 362703574669609767
       vertices: []
       indices: 
       edges: []
@@ -516,10 +657,10 @@ TextureImporter:
       name: Skeleton_Death_13
       rect:
         serializedVersion: 2
-        x: 1362
-        y: 1082
-        width: 124
-        height: 72
+        x: 1280
+        y: 1024
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -527,8 +668,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3967dcbcdf7148430800000000000000
-      internalID: 3784175965711464083
+      spriteID: 35bdaf2665c0752e0800000000000000
+      internalID: -2137225932996682925
       vertices: []
       indices: 
       edges: []
@@ -537,10 +678,10 @@ TextureImporter:
       name: Skeleton_Death_14
       rect:
         serializedVersion: 2
-        x: 1618
-        y: 1082
-        width: 126
-        height: 66
+        x: 1536
+        y: 1024
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -548,8 +689,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f46fae9a7e2b10410800000000000000
-      internalID: 1441630063793206863
+      spriteID: 5eeb09ffa91085aa0800000000000000
+      internalID: -6172181524086997275
       vertices: []
       indices: 
       edges: []
@@ -558,10 +699,10 @@ TextureImporter:
       name: Skeleton_Death_15
       rect:
         serializedVersion: 2
-        x: 1877
-        y: 1079
-        width: 127
-        height: 51
+        x: 1792
+        y: 1024
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,8 +710,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35ceec34be91ee540800000000000000
-      internalID: 5038993531319807059
+      spriteID: ca5c45063dd949fe0800000000000000
+      internalID: -1183147270911769172
       vertices: []
       indices: 
       edges: []
@@ -579,10 +720,10 @@ TextureImporter:
       name: Skeleton_Death_16
       rect:
         serializedVersion: 2
-        x: 89
-        y: 802
-        width: 122
-        height: 63
+        x: 0
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,8 +731,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37fa52ee2ac1b8c80800000000000000
-      internalID: -8319524400531132557
+      spriteID: 5764049e843f20740800000000000000
+      internalID: 5116919621122803317
       vertices: []
       indices: 
       edges: []
@@ -600,10 +741,10 @@ TextureImporter:
       name: Skeleton_Death_17
       rect:
         serializedVersion: 2
-        x: 347
-        y: 793
-        width: 119
-        height: 71
+        x: 256
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -611,8 +752,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 910226321f5a43800800000000000000
-      internalID: 591279906191712281
+      spriteID: 98483131d6bbc0760800000000000000
+      internalID: 7425515962772980873
       vertices: []
       indices: 
       edges: []
@@ -621,10 +762,10 @@ TextureImporter:
       name: Skeleton_Death_18
       rect:
         serializedVersion: 2
-        x: 609
-        y: 781
-        width: 102
-        height: 76
+        x: 512
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -632,8 +773,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 050d27d4ebfd8c320800000000000000
-      internalID: 2578556795105759312
+      spriteID: c0802ce009bd167b0800000000000000
+      internalID: -5232659880258435060
       vertices: []
       indices: 
       edges: []
@@ -642,10 +783,10 @@ TextureImporter:
       name: Skeleton_Death_19
       rect:
         serializedVersion: 2
-        x: 869
-        y: 776
-        width: 91
-        height: 82
+        x: 768
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -653,8 +794,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dae92799f119dc820800000000000000
-      internalID: 2940165696647241389
+      spriteID: 290057cb20c94eba0800000000000000
+      internalID: -6060547662968192878
       vertices: []
       indices: 
       edges: []
@@ -663,10 +804,10 @@ TextureImporter:
       name: Skeleton_Death_20
       rect:
         serializedVersion: 2
-        x: 1128
-        y: 775
-        width: 86
-        height: 86
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -674,8 +815,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d8bbb08782ee2b70800000000000000
-      internalID: 8876280987202074832
+      spriteID: 29ea99a476bb665d0800000000000000
+      internalID: -3069560043698803054
       vertices: []
       indices: 
       edges: []
@@ -684,10 +825,10 @@ TextureImporter:
       name: Skeleton_Death_21
       rect:
         serializedVersion: 2
-        x: 1389
-        y: 775
-        width: 88
-        height: 92
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -695,8 +836,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76ba29171ab72ee30800000000000000
-      internalID: 4531320108413528935
+      spriteID: c16fb24615accd480800000000000000
+      internalID: -8872994714904955364
       vertices: []
       indices: 
       edges: []
@@ -705,10 +846,10 @@ TextureImporter:
       name: Skeleton_Death_22
       rect:
         serializedVersion: 2
-        x: 1648
-        y: 777
-        width: 92
-        height: 94
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -716,8 +857,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 295b5d50bbddec870800000000000000
-      internalID: 8705138925080262034
+      spriteID: 2dd978b827770a910800000000000000
+      internalID: 1846607181072801234
       vertices: []
       indices: 
       edges: []
@@ -726,10 +867,10 @@ TextureImporter:
       name: Skeleton_Death_23
       rect:
         serializedVersion: 2
-        x: 1904
-        y: 777
-        width: 94
-        height: 94
+        x: 1792
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -737,8 +878,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 774a2363dc3374200800000000000000
-      internalID: 164156867892913271
+      spriteID: 821e67cf7d970b6c0800000000000000
+      internalID: -4129666889738165976
       vertices: []
       indices: 
       edges: []
@@ -747,10 +888,10 @@ TextureImporter:
       name: Skeleton_Death_24
       rect:
         serializedVersion: 2
-        x: 112
-        y: 520
-        width: 94
-        height: 93
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -758,8 +899,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa43a5e298646c090800000000000000
-      internalID: -8014640931857091414
+      spriteID: 63328c1c7a0802b80800000000000000
+      internalID: -8421589845183814858
       vertices: []
       indices: 
       edges: []
@@ -768,10 +909,10 @@ TextureImporter:
       name: Skeleton_Death_25
       rect:
         serializedVersion: 2
-        x: 368
-        y: 521
-        width: 94
-        height: 89
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -779,8 +920,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77f20507c733eeb10800000000000000
-      internalID: 2012602693034454903
+      spriteID: a12dd6ac5e7524e60800000000000000
+      internalID: 7945009337090298394
       vertices: []
       indices: 
       edges: []
@@ -789,10 +930,10 @@ TextureImporter:
       name: Skeleton_Death_26
       rect:
         serializedVersion: 2
-        x: 623
-        y: 522
-        width: 95
-        height: 86
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -800,8 +941,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01d721ade6087a160800000000000000
-      internalID: 7036734156383091984
+      spriteID: c91481a00f35c4dc0800000000000000
+      internalID: -3653452907277696612
       vertices: []
       indices: 
       edges: []
@@ -810,10 +951,10 @@ TextureImporter:
       name: Skeleton_Death_27
       rect:
         serializedVersion: 2
-        x: 879
-        y: 524
-        width: 96
-        height: 79
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -821,8 +962,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76d9bdac9ca60c960800000000000000
-      internalID: 7620207984435240295
+      spriteID: c226d32018f770df0800000000000000
+      internalID: -214062265211723220
       vertices: []
       indices: 
       edges: []
@@ -831,10 +972,10 @@ TextureImporter:
       name: Skeleton_Death_28
       rect:
         serializedVersion: 2
-        x: 1135
-        y: 523
-        width: 96
-        height: 75
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -842,8 +983,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bb66700192d3c590800000000000000
-      internalID: -7655043421379859533
+      spriteID: 14157f3f20c256a50800000000000000
+      internalID: 6513660827255918913
       vertices: []
       indices: 
       edges: []
@@ -852,10 +993,10 @@ TextureImporter:
       name: Skeleton_Death_29
       rect:
         serializedVersion: 2
-        x: 1391
-        y: 521
-        width: 96
-        height: 75
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -863,8 +1004,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b49a4336612028f50800000000000000
-      internalID: 6882065475752470859
+      spriteID: 1a08519325c4425a0800000000000000
+      internalID: -6547024042261118815
       vertices: []
       indices: 
       edges: []
@@ -873,10 +1014,10 @@ TextureImporter:
       name: Skeleton_Death_30
       rect:
         serializedVersion: 2
-        x: 1647
-        y: 521
-        width: 97
-        height: 71
+        x: 1536
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -884,8 +1025,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3545330a2edb21e50800000000000000
-      internalID: 6778689170193994835
+      spriteID: d387afb71ec377370800000000000000
+      internalID: 8320185775735601213
       vertices: []
       indices: 
       edges: []
@@ -894,10 +1035,10 @@ TextureImporter:
       name: Skeleton_Death_31
       rect:
         serializedVersion: 2
-        x: 1903
-        y: 520
-        width: 96
-        height: 72
+        x: 1792
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -905,8 +1046,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 035325931edacd600800000000000000
-      internalID: 494461241944847664
+      spriteID: 0f6076ef1c58c6870800000000000000
+      internalID: 8677457650279450352
       vertices: []
       indices: 
       edges: []
@@ -915,10 +1056,10 @@ TextureImporter:
       name: Skeleton_Death_32
       rect:
         serializedVersion: 2
-        x: 111
-        y: 264
-        width: 97
-        height: 72
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -926,8 +1067,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a68a0cb490698e50800000000000000
-      internalID: 6812082103300818593
+      spriteID: 8f260a11639daef80800000000000000
+      internalID: -8076404155488378120
       vertices: []
       indices: 
       edges: []
@@ -936,10 +1077,10 @@ TextureImporter:
       name: Skeleton_Death_33
       rect:
         serializedVersion: 2
-        x: 367
-        y: 264
-        width: 97
-        height: 72
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -947,8 +1088,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0984993a4d0b67860800000000000000
-      internalID: 7527398254520649872
+      spriteID: 0020a4a064ff68ce0800000000000000
+      internalID: -1403153557593914880
       vertices: []
       indices: 
       edges: []
@@ -957,10 +1098,10 @@ TextureImporter:
       name: Skeleton_Death_34
       rect:
         serializedVersion: 2
-        x: 623
-        y: 265
-        width: 97
-        height: 71
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -968,8 +1109,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6d58c71a1fc0ba50800000000000000
-      internalID: 6534950770289696110
+      spriteID: 9b97674d4c45b9fd0800000000000000
+      internalID: -2334178777506612807
       vertices: []
       indices: 
       edges: []
@@ -978,10 +1119,10 @@ TextureImporter:
       name: Skeleton_Death_35
       rect:
         serializedVersion: 2
-        x: 879
-        y: 265
-        width: 97
-        height: 71
+        x: 768
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -989,8 +1130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0028f068adbbc1cd0800000000000000
-      internalID: -2585985538791079424
+      spriteID: 81aa6239e0e7afac0800000000000000
+      internalID: -3820602732807017960
       vertices: []
       indices: 
       edges: []
@@ -999,10 +1140,10 @@ TextureImporter:
       name: Skeleton_Death_36
       rect:
         serializedVersion: 2
-        x: 1135
-        y: 264
-        width: 97
-        height: 72
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1010,8 +1151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ad852ae6b99d8330800000000000000
-      internalID: 3714794278541954467
+      spriteID: 297b5cfadaf0f60b0800000000000000
+      internalID: -5733346561966622830
       vertices: []
       indices: 
       edges: []
@@ -1020,10 +1161,10 @@ TextureImporter:
       name: Skeleton_Death_37
       rect:
         serializedVersion: 2
-        x: 1391
-        y: 264
-        width: 97
-        height: 72
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,8 +1172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9355455f5a41d030800000000000000
-      internalID: 3517674557266023323
+      spriteID: 02ca3c14de6080710800000000000000
+      internalID: 1659584078766386208
       vertices: []
       indices: 
       edges: []
@@ -1041,10 +1182,10 @@ TextureImporter:
       name: Skeleton_Death_38
       rect:
         serializedVersion: 2
-        x: 1647
-        y: 264
-        width: 97
-        height: 72
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1052,8 +1193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf503999c10489920800000000000000
-      internalID: 2997216043594876412
+      spriteID: f828fe95d508c57a0800000000000000
+      internalID: -6387089033089023345
       vertices: []
       indices: 
       edges: []
@@ -1062,10 +1203,10 @@ TextureImporter:
       name: Skeleton_Death_39
       rect:
         serializedVersion: 2
-        x: 1903
-        y: 264
-        width: 97
-        height: 72
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1073,8 +1214,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f6a984802bbd0320800000000000000
-      internalID: 2525880714361677553
+      spriteID: e6de2b44e2f75c110800000000000000
+      internalID: 1280569505754574190
       vertices: []
       indices: 
       edges: []
@@ -1083,10 +1224,10 @@ TextureImporter:
       name: Skeleton_Death_40
       rect:
         serializedVersion: 2
-        x: 111
-        y: 8
-        width: 97
-        height: 72
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1094,8 +1235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1aa0ac13993438a0800000000000000
-      internalID: -6326368272545437157
+      spriteID: 01a75ead360341770800000000000000
+      internalID: 8580536395480005136
       vertices: []
       indices: 
       edges: []
@@ -1104,10 +1245,10 @@ TextureImporter:
       name: Skeleton_Death_41
       rect:
         serializedVersion: 2
-        x: 367
-        y: 8
-        width: 97
-        height: 72
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1115,8 +1256,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9f37ccb3e6fde640800000000000000
-      internalID: 5111012610120564637
+      spriteID: 952094c0484e3ec20800000000000000
+      internalID: 3234680213175075417
       vertices: []
       indices: 
       edges: []
@@ -1125,10 +1266,10 @@ TextureImporter:
       name: Skeleton_Death_42
       rect:
         serializedVersion: 2
-        x: 623
-        y: 8
-        width: 97
-        height: 72
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1136,8 +1277,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbdb3e04128d32d90800000000000000
-      internalID: -7123612548235805249
+      spriteID: 056480ca7b7d8cb30800000000000000
+      internalID: 4307930227445089872
       vertices: []
       indices: 
       edges: []
@@ -1146,10 +1287,10 @@ TextureImporter:
       name: Skeleton_Death_43
       rect:
         serializedVersion: 2
-        x: 879
-        y: 8
-        width: 97
-        height: 72
+        x: 768
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1157,8 +1298,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53667591b86247260800000000000000
-      internalID: 7094337691882841653
+      spriteID: 13017d327ce83dbc0800000000000000
+      internalID: -3759504277973299151
       vertices: []
       indices: 
       edges: []
@@ -1167,10 +1308,10 @@ TextureImporter:
       name: Skeleton_Death_44
       rect:
         serializedVersion: 2
-        x: 1135
-        y: 8
-        width: 97
-        height: 72
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1178,8 +1319,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96730ff4e22b8f450800000000000000
-      internalID: 6122839605389571945
+      spriteID: c2ce5336bc04fe980800000000000000
+      internalID: -8507509928792560596
       vertices: []
       indices: 
       edges: []
@@ -1188,10 +1329,10 @@ TextureImporter:
       name: Skeleton_Death_45
       rect:
         serializedVersion: 2
-        x: 1391
-        y: 8
-        width: 97
-        height: 72
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1199,8 +1340,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 120772c7f8232fe80800000000000000
-      internalID: -8146393184115134431
+      spriteID: 3d2b7f20ba1d1f350800000000000000
+      internalID: 6048846306954687187
       vertices: []
       indices: 
       edges: []
@@ -1209,10 +1350,10 @@ TextureImporter:
       name: Skeleton_Death_46
       rect:
         serializedVersion: 2
-        x: 1647
-        y: 8
-        width: 97
-        height: 72
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1220,8 +1361,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70eeabe0ec0294cf0800000000000000
-      internalID: -267646633469350393
+      spriteID: a509855e41da776f0800000000000000
+      internalID: -686890112891973542
       vertices: []
       indices: 
       edges: []

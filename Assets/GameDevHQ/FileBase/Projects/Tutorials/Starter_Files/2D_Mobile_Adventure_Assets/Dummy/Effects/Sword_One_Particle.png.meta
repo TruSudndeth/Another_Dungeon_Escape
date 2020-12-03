@@ -41,6 +41,45 @@ TextureImporter:
   - first:
       213: 2093696662401799756
     second: Sword_One_Particle_12
+  - first:
+      213: 2072518615151063855
+    second: Sword_One_Particle_0
+  - first:
+      213: -8444053356283323763
+    second: Sword_One_Particle_1
+  - first:
+      213: -5535924699634522781
+    second: Sword_One_Particle_2
+  - first:
+      213: 6092436834388701228
+    second: Sword_One_Particle_3
+  - first:
+      213: 6561223387240747603
+    second: Sword_One_Particle_4
+  - first:
+      213: 7105584408356217573
+    second: Sword_One_Particle_5
+  - first:
+      213: -5165649947242400394
+    second: Sword_One_Particle_6
+  - first:
+      213: -3000301727853202058
+    second: Sword_One_Particle_7
+  - first:
+      213: -7937844575711453095
+    second: Sword_One_Particle_8
+  - first:
+      213: -8526684736923165034
+    second: Sword_One_Particle_9
+  - first:
+      213: -4646824729330697145
+    second: Sword_One_Particle_10
+  - first:
+      213: 5177601856680085762
+    second: Sword_One_Particle_11
+  - first:
+      213: 5454154246764445605
+    second: Sword_One_Particle_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -141,10 +180,10 @@ TextureImporter:
       name: Sword_One_Particle_0
       rect:
         serializedVersion: 2
-        x: 824
-        y: 1137
-        width: 168
-        height: 31
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfcaade7a3ce7df70800000000000000
-      internalID: 9212091298790157564
+      spriteID: f23b67623b013cc10800000000000000
+      internalID: 2072518615151063855
       vertices: []
       indices: 
       edges: []
@@ -162,10 +201,10 @@ TextureImporter:
       name: Sword_One_Particle_1
       rect:
         serializedVersion: 2
-        x: 54
-        y: 880
-        width: 186
-        height: 48
+        x: 0
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,8 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb6e678f6533778c0800000000000000
-      internalID: -4001673295266650436
+      spriteID: d8a99420632b0da80800000000000000
+      internalID: -8444053356283323763
       vertices: []
       indices: 
       edges: []
@@ -183,10 +222,10 @@ TextureImporter:
       name: Sword_One_Particle_2
       rect:
         serializedVersion: 2
-        x: 308
-        y: 880
-        width: 190
-        height: 52
+        x: 256
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,8 +233,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49688b55f2ca9e1c0800000000000000
-      internalID: -4473855435514280300
+      spriteID: 36529f6f0d17c23b0800000000000000
+      internalID: -5535924699634522781
       vertices: []
       indices: 
       edges: []
@@ -204,10 +243,10 @@ TextureImporter:
       name: Sword_One_Particle_3
       rect:
         serializedVersion: 2
-        x: 564
-        y: 880
-        width: 192
-        height: 51
+        x: 512
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +254,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69d7d9694136dcd50800000000000000
-      internalID: 6759167555830381974
+      spriteID: c207e32950fac8450800000000000000
+      internalID: 6092436834388701228
       vertices: []
       indices: 
       edges: []
@@ -225,10 +264,10 @@ TextureImporter:
       name: Sword_One_Particle_4
       rect:
         serializedVersion: 2
-        x: 820
-        y: 880
-        width: 193
-        height: 52
+        x: 768
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,8 +275,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee54db766cbe7d970800000000000000
-      internalID: 8779745235958580718
+      spriteID: 352587868e52e0b50800000000000000
+      internalID: 6561223387240747603
       vertices: []
       indices: 
       edges: []
@@ -246,10 +285,10 @@ TextureImporter:
       name: Sword_One_Particle_5
       rect:
         serializedVersion: 2
-        x: 48
-        y: 624
-        width: 198
-        height: 52
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,8 +296,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6c2ab0b1f5ca0710800000000000000
-      internalID: 1660357054482230382
+      spriteID: 5e260a55f5b1c9260800000000000000
+      internalID: 7105584408356217573
       vertices: []
       indices: 
       edges: []
@@ -267,10 +306,10 @@ TextureImporter:
       name: Sword_One_Particle_6
       rect:
         serializedVersion: 2
-        x: 306
-        y: 624
-        width: 198
-        height: 52
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,8 +317,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b70253033e2e4b4d0800000000000000
-      internalID: -3119619176466669445
+      spriteID: 675f994edbcef48b0800000000000000
+      internalID: -5165649947242400394
       vertices: []
       indices: 
       edges: []
@@ -288,10 +327,10 @@ TextureImporter:
       name: Sword_One_Particle_7
       rect:
         serializedVersion: 2
-        x: 561
-        y: 624
-        width: 198
-        height: 52
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,8 +338,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd1a22d3e9e1b01b0800000000000000
-      internalID: -5689420039273143844
+      spriteID: 675b15c8979cc56d0800000000000000
+      internalID: -3000301727853202058
       vertices: []
       indices: 
       edges: []
@@ -309,10 +348,10 @@ TextureImporter:
       name: Sword_One_Particle_8
       rect:
         serializedVersion: 2
-        x: 817
-        y: 624
-        width: 199
-        height: 52
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,8 +359,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b8edfcf8af7eaf70800000000000000
-      internalID: 9200431452540233906
+      spriteID: 95025763a6c17d190800000000000000
+      internalID: -7937844575711453095
       vertices: []
       indices: 
       edges: []
@@ -330,10 +369,10 @@ TextureImporter:
       name: Sword_One_Particle_9
       rect:
         serializedVersion: 2
-        x: 49
-        y: 368
-        width: 199
-        height: 52
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,8 +380,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c41366aa8595e970800000000000000
-      internalID: 8783591070985557184
+      spriteID: 69e13f778612ba980800000000000000
+      internalID: -8526684736923165034
       vertices: []
       indices: 
       edges: []
@@ -351,10 +390,10 @@ TextureImporter:
       name: Sword_One_Particle_10
       rect:
         serializedVersion: 2
-        x: 304
-        y: 368
-        width: 200
-        height: 52
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,8 +401,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52ea3ea677ba71960800000000000000
-      internalID: 7572709827829542437
+      spriteID: 74c3eb25789238fb0800000000000000
+      internalID: -4646824729330697145
       vertices: []
       indices: 
       edges: []
@@ -372,10 +411,10 @@ TextureImporter:
       name: Sword_One_Particle_11
       rect:
         serializedVersion: 2
-        x: 560
-        y: 368
-        width: 200
-        height: 52
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,8 +422,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40dcf280acc7cccf0800000000000000
-      internalID: -230672273740149500
+      spriteID: 209c1dfd4798ad740800000000000000
+      internalID: 5177601856680085762
       vertices: []
       indices: 
       edges: []
@@ -393,10 +432,10 @@ TextureImporter:
       name: Sword_One_Particle_12
       rect:
         serializedVersion: 2
-        x: 824
-        y: 368
-        width: 191
-        height: 52
+        x: 768
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,8 +443,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4651e5850e4e0d10800000000000000
-      internalID: 2093696662401799756
+      spriteID: 5af359cd36c01bb40800000000000000
+      internalID: 5454154246764445605
       vertices: []
       indices: 
       edges: []

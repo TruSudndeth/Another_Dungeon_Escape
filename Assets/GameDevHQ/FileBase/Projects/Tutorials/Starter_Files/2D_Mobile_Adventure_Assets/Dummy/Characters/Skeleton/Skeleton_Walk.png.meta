@@ -95,6 +95,99 @@ TextureImporter:
   - first:
       213: -1691254075720358911
     second: Skeleton_Walk_30
+  - first:
+      213: 6974894456545889542
+    second: Skeleton_Walk_0
+  - first:
+      213: 7624220301291115489
+    second: Skeleton_Walk_1
+  - first:
+      213: 4299704456675298086
+    second: Skeleton_Walk_2
+  - first:
+      213: -1962344761919901632
+    second: Skeleton_Walk_3
+  - first:
+      213: -4442958719242672586
+    second: Skeleton_Walk_4
+  - first:
+      213: -2068722802664501455
+    second: Skeleton_Walk_5
+  - first:
+      213: -5135937126096499021
+    second: Skeleton_Walk_6
+  - first:
+      213: 1206288689472384906
+    second: Skeleton_Walk_7
+  - first:
+      213: 4686306432268438874
+    second: Skeleton_Walk_8
+  - first:
+      213: -7683027735570044446
+    second: Skeleton_Walk_9
+  - first:
+      213: -5513432889933267077
+    second: Skeleton_Walk_10
+  - first:
+      213: -7405870999228663476
+    second: Skeleton_Walk_11
+  - first:
+      213: 8153527238851154780
+    second: Skeleton_Walk_12
+  - first:
+      213: 6841047346183587090
+    second: Skeleton_Walk_13
+  - first:
+      213: -8100861470884314894
+    second: Skeleton_Walk_14
+  - first:
+      213: 929735953793384704
+    second: Skeleton_Walk_15
+  - first:
+      213: -8938008413739392332
+    second: Skeleton_Walk_16
+  - first:
+      213: 6188671720345520651
+    second: Skeleton_Walk_17
+  - first:
+      213: -696863799853865448
+    second: Skeleton_Walk_18
+  - first:
+      213: -8171400178427296314
+    second: Skeleton_Walk_19
+  - first:
+      213: -8242218285058019883
+    second: Skeleton_Walk_20
+  - first:
+      213: 7829634545473571020
+    second: Skeleton_Walk_21
+  - first:
+      213: -3627541476549368603
+    second: Skeleton_Walk_22
+  - first:
+      213: 773205649202112351
+    second: Skeleton_Walk_23
+  - first:
+      213: -5647486621333986768
+    second: Skeleton_Walk_24
+  - first:
+      213: 8340286215645498190
+    second: Skeleton_Walk_25
+  - first:
+      213: -4298177256412445628
+    second: Skeleton_Walk_26
+  - first:
+      213: -3263855734310185542
+    second: Skeleton_Walk_27
+  - first:
+      213: -2103076233119124470
+    second: Skeleton_Walk_28
+  - first:
+      213: 665560888701262287
+    second: Skeleton_Walk_29
+  - first:
+      213: 8058102442671137292
+    second: Skeleton_Walk_30
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -195,10 +288,10 @@ TextureImporter:
       name: Skeleton_Walk_0
       rect:
         serializedVersion: 2
-        x: 101
-        y: 820
-        width: 74
-        height: 122
+        x: 0
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,8 +299,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f524afdddfd09bf0800000000000000
-      internalID: -319509429510461966
+      spriteID: 60d424cbd8dcbc060800000000000000
+      internalID: 6974894456545889542
       vertices: []
       indices: 
       edges: []
@@ -216,10 +309,10 @@ TextureImporter:
       name: Skeleton_Walk_1
       rect:
         serializedVersion: 2
-        x: 356
-        y: 820
-        width: 74
-        height: 122
+        x: 256
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,8 +320,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea8a440506507d0b0800000000000000
-      internalID: -5704084491819767634
+      spriteID: 1e357cb18fbaec960800000000000000
+      internalID: 7624220301291115489
       vertices: []
       indices: 
       edges: []
@@ -237,10 +330,10 @@ TextureImporter:
       name: Skeleton_Walk_2
       rect:
         serializedVersion: 2
-        x: 612
-        y: 821
-        width: 74
-        height: 122
+        x: 512
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,8 +341,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c9defc739847a570800000000000000
-      internalID: 8477824621842717129
+      spriteID: 62b8b4b2c6e9bab30800000000000000
+      internalID: 4299704456675298086
       vertices: []
       indices: 
       edges: []
@@ -258,10 +351,10 @@ TextureImporter:
       name: Skeleton_Walk_3
       rect:
         serializedVersion: 2
-        x: 867
-        y: 821
-        width: 75
-        height: 122
+        x: 768
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,8 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9729caaed95b95a20800000000000000
-      internalID: 3051669912371892857
+      spriteID: 0407ae206d954c4e0800000000000000
+      internalID: -1962344761919901632
       vertices: []
       indices: 
       edges: []
@@ -279,10 +372,10 @@ TextureImporter:
       name: Skeleton_Walk_4
       rect:
         serializedVersion: 2
-        x: 1121
-        y: 822
-        width: 76
-        height: 121
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +383,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 284de37f6b5d1a860800000000000000
-      internalID: 7539542233003775106
+      spriteID: 636e0dba5907752c0800000000000000
+      internalID: -4442958719242672586
       vertices: []
       indices: 
       edges: []
@@ -300,10 +393,10 @@ TextureImporter:
       name: Skeleton_Walk_5
       rect:
         serializedVersion: 2
-        x: 1375
-        y: 823
-        width: 78
-        height: 119
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,8 +404,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bed87abe67971b620800000000000000
-      internalID: 2788143195985776107
+      spriteID: 13f8e60529b6a43e0800000000000000
+      internalID: -2068722802664501455
       vertices: []
       indices: 
       edges: []
@@ -321,10 +414,10 @@ TextureImporter:
       name: Skeleton_Walk_6
       rect:
         serializedVersion: 2
-        x: 1629
-        y: 823
-        width: 80
-        height: 119
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,8 +425,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff53a35494dd75ef0800000000000000
-      internalID: -119383558338234881
+      spriteID: 3be074a256c79b8b0800000000000000
+      internalID: -5135937126096499021
       vertices: []
       indices: 
       edges: []
@@ -342,10 +435,10 @@ TextureImporter:
       name: Skeleton_Walk_7
       rect:
         serializedVersion: 2
-        x: 1883
-        y: 822
-        width: 81
-        height: 122
+        x: 1792
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,8 +446,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e5e9d16f3940c510800000000000000
-      internalID: 1567333206898370016
+      spriteID: a8fa2900c299db010800000000000000
+      internalID: 1206288689472384906
       vertices: []
       indices: 
       edges: []
@@ -363,10 +456,10 @@ TextureImporter:
       name: Skeleton_Walk_8
       rect:
         serializedVersion: 2
-        x: 90
-        y: 566
-        width: 83
-        height: 119
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,8 +467,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80add942b730a67b0800000000000000
-      internalID: -5230364189807224312
+      spriteID: a5d0dfbfeda190140800000000000000
+      internalID: 4686306432268438874
       vertices: []
       indices: 
       edges: []
@@ -384,10 +477,10 @@ TextureImporter:
       name: Skeleton_Walk_9
       rect:
         serializedVersion: 2
-        x: 344
-        y: 565
-        width: 86
-        height: 119
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,8 +488,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85e9ead5818a77690800000000000000
-      internalID: -7604424623187386792
+      spriteID: 2e9afdd1bf6606590800000000000000
+      internalID: -7683027735570044446
       vertices: []
       indices: 
       edges: []
@@ -405,10 +498,10 @@ TextureImporter:
       name: Skeleton_Walk_10
       rect:
         serializedVersion: 2
-        x: 602
-        y: 565
-        width: 85
-        height: 118
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,8 +509,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c569ad5ccbd410c0800000000000000
-      internalID: -4605814848101980731
+      spriteID: b7f729e7ff95c73b0800000000000000
+      internalID: -5513432889933267077
       vertices: []
       indices: 
       edges: []
@@ -426,10 +519,10 @@ TextureImporter:
       name: Skeleton_Walk_11
       rect:
         serializedVersion: 2
-        x: 859
-        y: 566
-        width: 85
-        height: 116
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,8 +530,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d415a9e44cb026a20800000000000000
-      internalID: 3054016435070849357
+      spriteID: c49bb9e609f093990800000000000000
+      internalID: -7405870999228663476
       vertices: []
       indices: 
       edges: []
@@ -447,10 +540,10 @@ TextureImporter:
       name: Skeleton_Walk_12
       rect:
         serializedVersion: 2
-        x: 1118
-        y: 566
-        width: 82
-        height: 116
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,8 +551,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce1d8018ea032a870800000000000000
-      internalID: 8692563756825760236
+      spriteID: c53d13213d5272170800000000000000
+      internalID: 8153527238851154780
       vertices: []
       indices: 
       edges: []
@@ -468,10 +561,10 @@ TextureImporter:
       name: Skeleton_Walk_13
       rect:
         serializedVersion: 2
-        x: 1377
-        y: 566
-        width: 79
-        height: 115
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,8 +572,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9a3200c007149280800000000000000
-      internalID: -9037573260236932452
+      spriteID: 215c6e0e05840fe50800000000000000
+      internalID: 6841047346183587090
       vertices: []
       indices: 
       edges: []
@@ -489,10 +582,10 @@ TextureImporter:
       name: Skeleton_Walk_14
       rect:
         serializedVersion: 2
-        x: 1636
-        y: 566
-        width: 76
-        height: 115
+        x: 1536
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,8 +593,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5033a35de2a4dd690800000000000000
-      internalID: -7575817433160994043
+      spriteID: 2f0ca459965f39f80800000000000000
+      internalID: -8100861470884314894
       vertices: []
       indices: 
       edges: []
@@ -510,10 +603,10 @@ TextureImporter:
       name: Skeleton_Walk_15
       rect:
         serializedVersion: 2
-        x: 1891
-        y: 566
-        width: 78
-        height: 114
+        x: 1792
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,8 +614,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59957d10961f497d0800000000000000
-      internalID: -2912437625697117803
+      spriteID: 00183cc8ce517ec00800000000000000
+      internalID: 929735953793384704
       vertices: []
       indices: 
       edges: []
@@ -531,10 +624,10 @@ TextureImporter:
       name: Skeleton_Walk_16
       rect:
         serializedVersion: 2
-        x: 99
-        y: 310
-        width: 78
-        height: 113
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -542,8 +635,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2876ae6898bd89b0800000000000000
-      internalID: -5076198240145737685
+      spriteID: 4b26c9b04b0d5f380800000000000000
+      internalID: -8938008413739392332
       vertices: []
       indices: 
       edges: []
@@ -552,10 +645,10 @@ TextureImporter:
       name: Skeleton_Walk_17
       rect:
         serializedVersion: 2
-        x: 354
-        y: 310
-        width: 79
-        height: 112
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -563,8 +656,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a49f2703f679578b0800000000000000
-      internalID: -5155047694645659318
+      spriteID: b0a43b2042492e550800000000000000
+      internalID: 6188671720345520651
       vertices: []
       indices: 
       edges: []
@@ -573,10 +666,10 @@ TextureImporter:
       name: Skeleton_Walk_18
       rect:
         serializedVersion: 2
-        x: 609
-        y: 309
-        width: 79
-        height: 112
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,8 +677,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77f56813e18ff5a90800000000000000
-      internalID: -7322861660517539977
+      spriteID: 816a1e0f01e3456f0800000000000000
+      internalID: -696863799853865448
       vertices: []
       indices: 
       edges: []
@@ -594,10 +687,10 @@ TextureImporter:
       name: Skeleton_Walk_19
       rect:
         serializedVersion: 2
-        x: 865
-        y: 309
-        width: 79
-        height: 112
+        x: 768
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -605,8 +698,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b471de4969e86fc60800000000000000
-      internalID: 7851619777761843019
+      spriteID: 6c50747e4da599e80800000000000000
+      internalID: -8171400178427296314
       vertices: []
       indices: 
       edges: []
@@ -615,10 +708,10 @@ TextureImporter:
       name: Skeleton_Walk_20
       rect:
         serializedVersion: 2
-        x: 1121
-        y: 309
-        width: 79
-        height: 112
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -626,8 +719,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c4169ae28f8547d0800000000000000
-      internalID: -2934781789717785400
+      spriteID: 5dd23ed8322cd9d80800000000000000
+      internalID: -8242218285058019883
       vertices: []
       indices: 
       edges: []
@@ -636,10 +729,10 @@ TextureImporter:
       name: Skeleton_Walk_21
       rect:
         serializedVersion: 2
-        x: 1375
-        y: 309
-        width: 81
-        height: 112
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -647,8 +740,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e81eda57bd0834150800000000000000
-      internalID: 5855665620572299662
+      spriteID: cc8441cc22378ac60800000000000000
+      internalID: 7829634545473571020
       vertices: []
       indices: 
       edges: []
@@ -657,10 +750,10 @@ TextureImporter:
       name: Skeleton_Walk_22
       rect:
         serializedVersion: 2
-        x: 1629
-        y: 308
-        width: 82
-        height: 114
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,8 +761,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c40f993c222b2dc0800000000000000
-      internalID: -3662796298595138364
+      spriteID: 5e467422f3268adc0800000000000000
+      internalID: -3627541476549368603
       vertices: []
       indices: 
       edges: []
@@ -678,10 +771,10 @@ TextureImporter:
       name: Skeleton_Walk_23
       rect:
         serializedVersion: 2
-        x: 1883
-        y: 308
-        width: 84
-        height: 116
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -689,8 +782,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dbff3aab93bf0ae0800000000000000
-      internalID: -1580847463026132010
+      spriteID: f57640bf07afaba00800000000000000
+      internalID: 773205649202112351
       vertices: []
       indices: 
       edges: []
@@ -699,10 +792,10 @@ TextureImporter:
       name: Skeleton_Walk_24
       rect:
         serializedVersion: 2
-        x: 90
-        y: 52
-        width: 86
-        height: 116
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,8 +803,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f2bded18c9117df0800000000000000
-      internalID: -184337762459208976
+      spriteID: 032ed9de6d810a1b0800000000000000
+      internalID: -5647486621333986768
       vertices: []
       indices: 
       edges: []
@@ -720,10 +813,10 @@ TextureImporter:
       name: Skeleton_Walk_25
       rect:
         serializedVersion: 2
-        x: 346
-        y: 51
-        width: 85
-        height: 118
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -731,8 +824,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0796e5d7a1d5395d0800000000000000
-      internalID: -3056997353700562576
+      spriteID: e4b03a8df16aeb370800000000000000
+      internalID: 8340286215645498190
       vertices: []
       indices: 
       edges: []
@@ -741,10 +834,10 @@ TextureImporter:
       name: Skeleton_Walk_26
       rect:
         serializedVersion: 2
-        x: 604
-        y: 51
-        width: 83
-        height: 118
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -752,8 +845,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4380cf47c089ee1b0800000000000000
-      internalID: -5625391705269467084
+      spriteID: 4448fd9de8ec954c0800000000000000
+      internalID: -4298177256412445628
       vertices: []
       indices: 
       edges: []
@@ -762,10 +855,10 @@ TextureImporter:
       name: Skeleton_Walk_27
       rect:
         serializedVersion: 2
-        x: 866
-        y: 52
-        width: 77
-        height: 119
+        x: 768
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -773,8 +866,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f01eab254c567c40800000000000000
-      internalID: 5509692646289707257
+      spriteID: ab5d156908474b2d0800000000000000
+      internalID: -3263855734310185542
       vertices: []
       indices: 
       edges: []
@@ -783,10 +876,10 @@ TextureImporter:
       name: Skeleton_Walk_28
       rect:
         serializedVersion: 2
-        x: 1124
-        y: 52
-        width: 76
-        height: 119
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -794,8 +887,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61f2386fd598c1ef0800000000000000
-      internalID: -136082852067201258
+      spriteID: a043e5dfe4f50d2e0800000000000000
+      internalID: -2103076233119124470
       vertices: []
       indices: 
       edges: []
@@ -804,10 +897,10 @@ TextureImporter:
       name: Skeleton_Walk_29
       rect:
         serializedVersion: 2
-        x: 1380
-        y: 52
-        width: 75
-        height: 120
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -815,8 +908,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e26a10ae9518ed40800000000000000
-      internalID: 5613760706552423140
+      spriteID: fc99e6b1a1c8c3900800000000000000
+      internalID: 665560888701262287
       vertices: []
       indices: 
       edges: []
@@ -825,10 +918,10 @@ TextureImporter:
       name: Skeleton_Walk_30
       rect:
         serializedVersion: 2
-        x: 1637
-        y: 52
-        width: 75
-        height: 122
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -836,8 +929,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 104a1c7f0657788e0800000000000000
-      internalID: -1691254075720358911
+      spriteID: c02ee1b5a7124df60800000000000000
+      internalID: 8058102442671137292
       vertices: []
       indices: 
       edges: []

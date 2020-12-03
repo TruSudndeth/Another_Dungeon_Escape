@@ -41,6 +41,45 @@ TextureImporter:
   - first:
       213: -155569343393016519
     second: Sword_Two_Particle_12
+  - first:
+      213: -1326689785698995882
+    second: Sword_Two_Particle_0
+  - first:
+      213: 7767598977612680059
+    second: Sword_Two_Particle_1
+  - first:
+      213: 5692670456668624712
+    second: Sword_Two_Particle_2
+  - first:
+      213: -1922213639005307765
+    second: Sword_Two_Particle_3
+  - first:
+      213: -8092067084468746744
+    second: Sword_Two_Particle_4
+  - first:
+      213: -1809254076737351686
+    second: Sword_Two_Particle_5
+  - first:
+      213: 8057855998998999456
+    second: Sword_Two_Particle_6
+  - first:
+      213: 7434945244454483188
+    second: Sword_Two_Particle_7
+  - first:
+      213: -8266409794818703236
+    second: Sword_Two_Particle_8
+  - first:
+      213: 9070723563151137727
+    second: Sword_Two_Particle_9
+  - first:
+      213: 94112141105326732
+    second: Sword_Two_Particle_10
+  - first:
+      213: -73138250185057029
+    second: Sword_Two_Particle_11
+  - first:
+      213: 5419876189484968833
+    second: Sword_Two_Particle_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -141,10 +180,10 @@ TextureImporter:
       name: Sword_Two_Particle_0
       rect:
         serializedVersion: 2
-        x: 808
-        y: 1132
-        width: 184
-        height: 32
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b02427fee9892a450800000000000000
-      internalID: 6098604653802570251
+      spriteID: 651b5444ba6a69de0800000000000000
+      internalID: -1326689785698995882
       vertices: []
       indices: 
       edges: []
@@ -162,10 +201,10 @@ TextureImporter:
       name: Sword_Two_Particle_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 876
-        width: 195
-        height: 56
+        x: 0
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,8 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 460e485d2c2e32b50800000000000000
-      internalID: 6567342008070103140
+      spriteID: b7b8a4a9d1e0ccb60800000000000000
+      internalID: 7767598977612680059
       vertices: []
       indices: 
       edges: []
@@ -183,10 +222,10 @@ TextureImporter:
       name: Sword_Two_Particle_2
       rect:
         serializedVersion: 2
-        x: 292
-        y: 876
-        width: 198
-        height: 59
+        x: 256
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,8 +233,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff00302c56734f260800000000000000
-      internalID: 7130385020220539135
+      spriteID: 84718198e9d600f40800000000000000
+      internalID: 5692670456668624712
       vertices: []
       indices: 
       edges: []
@@ -204,10 +243,10 @@ TextureImporter:
       name: Sword_Two_Particle_3
       rect:
         serializedVersion: 2
-        x: 546
-        y: 876
-        width: 202
-        height: 60
+        x: 512
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +254,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f7ef9acb38416e80800000000000000
-      internalID: -8187183225943103504
+      spriteID: b8c7da031ece255e0800000000000000
+      internalID: -1922213639005307765
       vertices: []
       indices: 
       edges: []
@@ -225,10 +264,10 @@ TextureImporter:
       name: Sword_Two_Particle_4
       rect:
         serializedVersion: 2
-        x: 801
-        y: 876
-        width: 203
-        height: 60
+        x: 768
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,8 +275,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f16a7eea2d1315b0800000000000000
-      internalID: -5398939458060262928
+      spriteID: 8060c9b3cd333bf80800000000000000
+      internalID: -8092067084468746744
       vertices: []
       indices: 
       edges: []
@@ -246,10 +285,10 @@ TextureImporter:
       name: Sword_Two_Particle_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 620
-        width: 206
-        height: 60
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,8 +296,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae55443bf2b8f8130800000000000000
-      internalID: 3571226066515416554
+      spriteID: aff84a7c00d34e6e0800000000000000
+      internalID: -1809254076737351686
       vertices: []
       indices: 
       edges: []
@@ -267,10 +306,10 @@ TextureImporter:
       name: Sword_Two_Particle_6
       rect:
         serializedVersion: 2
-        x: 288
-        y: 620
-        width: 207
-        height: 60
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,8 +317,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ae2dadd6b21ac6a0800000000000000
-      internalID: -6428304941505499487
+      spriteID: 0a1f597b65143df60800000000000000
+      internalID: 8057855998998999456
       vertices: []
       indices: 
       edges: []
@@ -288,10 +327,10 @@ TextureImporter:
       name: Sword_Two_Particle_7
       rect:
         serializedVersion: 2
-        x: 544
-        y: 620
-        width: 207
-        height: 60
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,8 +338,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee559596aef102ad0800000000000000
-      internalID: -2729146282536249874
+      spriteID: 4f4703cce4b3e2760800000000000000
+      internalID: 7434945244454483188
       vertices: []
       indices: 
       edges: []
@@ -309,10 +348,10 @@ TextureImporter:
       name: Sword_Two_Particle_8
       rect:
         serializedVersion: 2
-        x: 800
-        y: 620
-        width: 208
-        height: 60
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,8 +359,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 118ffb167da62ce30800000000000000
-      internalID: 4522294449123883025
+      spriteID: c708504c610d74d80800000000000000
+      internalID: -8266409794818703236
       vertices: []
       indices: 
       edges: []
@@ -330,10 +369,10 @@ TextureImporter:
       name: Sword_Two_Particle_9
       rect:
         serializedVersion: 2
-        x: 32
-        y: 364
-        width: 208
-        height: 60
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,8 +380,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76c5e7f3fcb0f3cf0800000000000000
-      internalID: -270484467867558809
+      spriteID: fbb936d950fa1ed70800000000000000
+      internalID: 9070723563151137727
       vertices: []
       indices: 
       edges: []
@@ -351,10 +390,10 @@ TextureImporter:
       name: Sword_Two_Particle_10
       rect:
         serializedVersion: 2
-        x: 288
-        y: 364
-        width: 208
-        height: 60
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,8 +401,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c40a7b0958e0428d0800000000000000
-      internalID: -2872154695534141364
+      spriteID: c8a62a36e7a5e4100800000000000000
+      internalID: 94112141105326732
       vertices: []
       indices: 
       edges: []
@@ -372,10 +411,10 @@ TextureImporter:
       name: Sword_Two_Particle_11
       rect:
         serializedVersion: 2
-        x: 544
-        y: 364
-        width: 208
-        height: 60
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,8 +422,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2627e72fe07b28690800000000000000
-      internalID: -7601311946222177694
+      spriteID: bfcd93226292cfef0800000000000000
+      internalID: -73138250185057029
       vertices: []
       indices: 
       edges: []
@@ -393,10 +432,10 @@ TextureImporter:
       name: Sword_Two_Particle_12
       rect:
         serializedVersion: 2
-        x: 804
-        y: 364
-        width: 204
-        height: 60
+        x: 768
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,8 +443,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9355e15a18e47ddf0800000000000000
-      internalID: -155569343393016519
+      spriteID: 18b69d8bda4473b40800000000000000
+      internalID: 5419876189484968833
       vertices: []
       indices: 
       edges: []

@@ -95,6 +95,99 @@ TextureImporter:
   - first:
       213: -7602619246453278136
     second: Spider_Idle_30
+  - first:
+      213: -2659169999181756029
+    second: Spider_Idle_0
+  - first:
+      213: -9085346419430711697
+    second: Spider_Idle_1
+  - first:
+      213: 7742529089164841081
+    second: Spider_Idle_2
+  - first:
+      213: 8540454768265365512
+    second: Spider_Idle_3
+  - first:
+      213: 5547402260244003202
+    second: Spider_Idle_4
+  - first:
+      213: -6193668181789197560
+    second: Spider_Idle_5
+  - first:
+      213: -83037144244598109
+    second: Spider_Idle_6
+  - first:
+      213: -3329789686924468520
+    second: Spider_Idle_7
+  - first:
+      213: 5557435711253132769
+    second: Spider_Idle_8
+  - first:
+      213: 8671982471521061954
+    second: Spider_Idle_9
+  - first:
+      213: -7339093691110558521
+    second: Spider_Idle_10
+  - first:
+      213: 2302921279739370516
+    second: Spider_Idle_11
+  - first:
+      213: 3598481488040034701
+    second: Spider_Idle_12
+  - first:
+      213: 1252441172691058321
+    second: Spider_Idle_13
+  - first:
+      213: -259672870498273809
+    second: Spider_Idle_14
+  - first:
+      213: -1647321322910290118
+    second: Spider_Idle_15
+  - first:
+      213: 3757761885806098373
+    second: Spider_Idle_16
+  - first:
+      213: 2651541629613116851
+    second: Spider_Idle_17
+  - first:
+      213: 488733595744528155
+    second: Spider_Idle_18
+  - first:
+      213: 426580040234774422
+    second: Spider_Idle_19
+  - first:
+      213: 4321015000844116957
+    second: Spider_Idle_20
+  - first:
+      213: 607532843017331416
+    second: Spider_Idle_21
+  - first:
+      213: 2464110151285797290
+    second: Spider_Idle_22
+  - first:
+      213: -3949033752643002270
+    second: Spider_Idle_23
+  - first:
+      213: -1854055340674551090
+    second: Spider_Idle_24
+  - first:
+      213: 5449342790132180465
+    second: Spider_Idle_25
+  - first:
+      213: -6999400277281636646
+    second: Spider_Idle_26
+  - first:
+      213: 13365257694272014
+    second: Spider_Idle_27
+  - first:
+      213: -101433815790477551
+    second: Spider_Idle_28
+  - first:
+      213: -4498514567567056839
+    second: Spider_Idle_29
+  - first:
+      213: -1002803218183666831
+    second: Spider_Idle_30
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -195,10 +288,10 @@ TextureImporter:
       name: Spider_Idle_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 814
-        width: 207
-        height: 82
+        x: 0
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,8 +299,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1469c12d4d386b10800000000000000
-      internalID: 1974895838090585116
+      spriteID: 389456189fab81bd0800000000000000
+      internalID: -2659169999181756029
       vertices: []
       indices: 
       edges: []
@@ -216,10 +309,10 @@ TextureImporter:
       name: Spider_Idle_1
       rect:
         serializedVersion: 2
-        x: 269
-        y: 814
-        width: 207
-        height: 82
+        x: 256
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,8 +320,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a8e10154c0136910800000000000000
-      internalID: 1829324309001267361
+      spriteID: f6e1778519d5ae180800000000000000
+      internalID: -9085346419430711697
       vertices: []
       indices: 
       edges: []
@@ -237,10 +330,10 @@ TextureImporter:
       name: Spider_Idle_2
       rect:
         serializedVersion: 2
-        x: 525
-        y: 814
-        width: 208
-        height: 80
+        x: 512
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,8 +341,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e69a32b3c3ee7a20800000000000000
-      internalID: 3062135226306828002
+      spriteID: 9709cc65f2df27b60800000000000000
+      internalID: 7742529089164841081
       vertices: []
       indices: 
       edges: []
@@ -258,10 +351,10 @@ TextureImporter:
       name: Spider_Idle_3
       rect:
         serializedVersion: 2
-        x: 781
-        y: 814
-        width: 209
-        height: 84
+        x: 768
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,8 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df5e0e4cb68c67ad0800000000000000
-      internalID: -2704754160999275011
+      spriteID: 8088fbacc5ac58670800000000000000
+      internalID: 8540454768265365512
       vertices: []
       indices: 
       edges: []
@@ -279,10 +372,10 @@ TextureImporter:
       name: Spider_Idle_4
       rect:
         serializedVersion: 2
-        x: 1037
-        y: 814
-        width: 210
-        height: 90
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +383,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfe5e7fd31f494c70800000000000000
-      internalID: 8955776280775515899
+      spriteID: 289fa0cd6f45cfc40800000000000000
+      internalID: 5547402260244003202
       vertices: []
       indices: 
       edges: []
@@ -300,10 +393,10 @@ TextureImporter:
       name: Spider_Idle_5
       rect:
         serializedVersion: 2
-        x: 1293
-        y: 814
-        width: 212
-        height: 94
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,8 +404,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 140c95b77b4d68530800000000000000
-      internalID: 3857004015402991681
+      spriteID: 80bb0d7aa9bab0aa0800000000000000
+      internalID: -6193668181789197560
       vertices: []
       indices: 
       edges: []
@@ -321,10 +414,10 @@ TextureImporter:
       name: Spider_Idle_6
       rect:
         serializedVersion: 2
-        x: 1549
-        y: 814
-        width: 215
-        height: 92
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,8 +425,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db8f94c197f859c20800000000000000
-      internalID: 3212631659527141565
+      spriteID: 3aa4322482ef8def0800000000000000
+      internalID: -83037144244598109
       vertices: []
       indices: 
       edges: []
@@ -342,10 +435,10 @@ TextureImporter:
       name: Spider_Idle_7
       rect:
         serializedVersion: 2
-        x: 1805
-        y: 814
-        width: 219
-        height: 83
+        x: 1792
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,8 +446,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbc51f447e13a1540800000000000000
-      internalID: 4979347207375379644
+      spriteID: 8de9b16fbe53ac1d0800000000000000
+      internalID: -3329789686924468520
       vertices: []
       indices: 
       edges: []
@@ -363,10 +456,10 @@ TextureImporter:
       name: Spider_Idle_8
       rect:
         serializedVersion: 2
-        x: 13
-        y: 558
-        width: 225
-        height: 72
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,8 +467,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8836529d857bdd60800000000000000
-      internalID: 7916050020939741323
+      spriteID: 1e53057b55aff1d40800000000000000
+      internalID: 5557435711253132769
       vertices: []
       indices: 
       edges: []
@@ -384,10 +477,10 @@ TextureImporter:
       name: Spider_Idle_9
       rect:
         serializedVersion: 2
-        x: 269
-        y: 558
-        width: 229
-        height: 79
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,8 +488,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce9437330a96e1eb0800000000000000
-      internalID: -4747240820423046676
+      spriteID: 24c4d699c12195870800000000000000
+      internalID: 8671982471521061954
       vertices: []
       indices: 
       edges: []
@@ -405,10 +498,10 @@ TextureImporter:
       name: Spider_Idle_10
       rect:
         serializedVersion: 2
-        x: 525
-        y: 558
-        width: 231
-        height: 84
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,8 +509,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c64303fffe1e6c010800000000000000
-      internalID: 1208901970890339436
+      spriteID: 7c47b001c2d462a90800000000000000
+      internalID: -7339093691110558521
       vertices: []
       indices: 
       edges: []
@@ -426,10 +519,10 @@ TextureImporter:
       name: Spider_Idle_11
       rect:
         serializedVersion: 2
-        x: 781
-        y: 558
-        width: 231
-        height: 88
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,8 +530,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de04afd865fae16c0800000000000000
-      internalID: -4170703418614464275
+      spriteID: 41c9d88d3be95ff10800000000000000
+      internalID: 2302921279739370516
       vertices: []
       indices: 
       edges: []
@@ -447,10 +540,10 @@ TextureImporter:
       name: Spider_Idle_12
       rect:
         serializedVersion: 2
-        x: 1037
-        y: 558
-        width: 232
-        height: 90
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,8 +551,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7be14895213e1070800000000000000
-      internalID: 8078948819087256444
+      spriteID: d81027909df50f130800000000000000
+      internalID: 3598481488040034701
       vertices: []
       indices: 
       edges: []
@@ -468,10 +561,10 @@ TextureImporter:
       name: Spider_Idle_13
       rect:
         serializedVersion: 2
-        x: 1293
-        y: 558
-        width: 232
-        height: 92
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,8 +572,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22f13379b0e073c60800000000000000
-      internalID: 7797716722759442210
+      spriteID: 19ef2506c90916110800000000000000
+      internalID: 1252441172691058321
       vertices: []
       indices: 
       edges: []
@@ -489,10 +582,10 @@ TextureImporter:
       name: Spider_Idle_14
       rect:
         serializedVersion: 2
-        x: 1549
-        y: 558
-        width: 231
-        height: 95
+        x: 1536
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,8 +593,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3587fce7cd6d97e40800000000000000
-      internalID: 5654787049649043539
+      spriteID: fe5f42c66e4756cf0800000000000000
+      internalID: -259672870498273809
       vertices: []
       indices: 
       edges: []
@@ -510,10 +603,10 @@ TextureImporter:
       name: Spider_Idle_15
       rect:
         serializedVersion: 2
-        x: 1805
-        y: 559
-        width: 229
-        height: 97
+        x: 1792
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,8 +614,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bef2d89ba3f5462f0800000000000000
-      internalID: -980554113034145813
+      spriteID: a3f61051cf98329e0800000000000000
+      internalID: -1647321322910290118
       vertices: []
       indices: 
       edges: []
@@ -531,10 +624,10 @@ TextureImporter:
       name: Spider_Idle_16
       rect:
         serializedVersion: 2
-        x: 13
-        y: 302
-        width: 224
-        height: 100
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -542,8 +635,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce5190d23fccca290800000000000000
-      internalID: -7877696303373150740
+      spriteID: 5c779f19680462430800000000000000
+      internalID: 3757761885806098373
       vertices: []
       indices: 
       edges: []
@@ -552,10 +645,10 @@ TextureImporter:
       name: Spider_Idle_17
       rect:
         serializedVersion: 2
-        x: 269
-        y: 302
-        width: 218
-        height: 100
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -563,8 +656,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f8efc01197855830800000000000000
-      internalID: 4059299696266438900
+      spriteID: 3bd004c401b2cc420800000000000000
+      internalID: 2651541629613116851
       vertices: []
       indices: 
       edges: []
@@ -573,10 +666,10 @@ TextureImporter:
       name: Spider_Idle_18
       rect:
         serializedVersion: 2
-        x: 525
-        y: 302
-        width: 210
-        height: 100
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,8 +677,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b51ab10d0d941ba0800000000000000
-      internalID: -6119093314500553295
+      spriteID: b17e62cad9458c600800000000000000
+      internalID: 488733595744528155
       vertices: []
       indices: 
       edges: []
@@ -594,10 +687,10 @@ TextureImporter:
       name: Spider_Idle_19
       rect:
         serializedVersion: 2
-        x: 781
-        y: 302
-        width: 203
-        height: 100
+        x: 768
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -605,8 +698,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaadee3531eacb200800000000000000
-      internalID: 197223881733233322
+      spriteID: 69f277659448be500800000000000000
+      internalID: 426580040234774422
       vertices: []
       indices: 
       edges: []
@@ -615,10 +708,10 @@ TextureImporter:
       name: Spider_Idle_20
       rect:
         serializedVersion: 2
-        x: 1037
-        y: 302
-        width: 197
-        height: 100
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -626,8 +719,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce30cec7561300a40800000000000000
-      internalID: 5332316270763967468
+      spriteID: dd3a272ef3457fb30800000000000000
+      internalID: 4321015000844116957
       vertices: []
       indices: 
       edges: []
@@ -636,10 +729,10 @@ TextureImporter:
       name: Spider_Idle_21
       rect:
         serializedVersion: 2
-        x: 1293
-        y: 302
-        width: 193
-        height: 99
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -647,8 +740,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 570e1ca69d7906470800000000000000
-      internalID: 8385869466218651765
+      spriteID: 8d26e61e6e36e6800800000000000000
+      internalID: 607532843017331416
       vertices: []
       indices: 
       edges: []
@@ -657,10 +750,10 @@ TextureImporter:
       name: Spider_Idle_22
       rect:
         serializedVersion: 2
-        x: 1549
-        y: 302
-        width: 193
-        height: 99
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,8 +761,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ac14f96e888d4d00800000000000000
-      internalID: 958572440944123046
+      spriteID: aa1f2de8027423220800000000000000
+      internalID: 2464110151285797290
       vertices: []
       indices: 
       edges: []
@@ -678,10 +771,10 @@ TextureImporter:
       name: Spider_Idle_23
       rect:
         serializedVersion: 2
-        x: 1805
-        y: 302
-        width: 200
-        height: 99
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -689,8 +782,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98c77ba651e935350800000000000000
-      internalID: 6004316543036914825
+      spriteID: 260afaf89b63239c0800000000000000
+      internalID: -3949033752643002270
       vertices: []
       indices: 
       edges: []
@@ -699,10 +792,10 @@ TextureImporter:
       name: Spider_Idle_24
       rect:
         serializedVersion: 2
-        x: 13
-        y: 46
-        width: 212
-        height: 96
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,8 +803,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c236d0a578354520800000000000000
-      internalID: 2685614830657090247
+      spriteID: ec27d29ad721546e0800000000000000
+      internalID: -1854055340674551090
       vertices: []
       indices: 
       edges: []
@@ -720,10 +813,10 @@ TextureImporter:
       name: Spider_Idle_25
       rect:
         serializedVersion: 2
-        x: 269
-        y: 46
-        width: 224
-        height: 92
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -731,8 +824,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0ed41364f486ea90800000000000000
-      internalID: -7284989162055999987
+      spriteID: 1f52a215564ff9b40800000000000000
+      internalID: 5449342790132180465
       vertices: []
       indices: 
       edges: []
@@ -741,10 +834,10 @@ TextureImporter:
       name: Spider_Idle_26
       rect:
         serializedVersion: 2
-        x: 525
-        y: 46
-        width: 229
-        height: 89
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -752,8 +845,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b60d1834b0484ad90800000000000000
-      internalID: -7087394729662230421
+      spriteID: ade7bdf38822dde90800000000000000
+      internalID: -6999400277281636646
       vertices: []
       indices: 
       edges: []
@@ -762,10 +855,10 @@ TextureImporter:
       name: Spider_Idle_27
       rect:
         serializedVersion: 2
-        x: 781
-        y: 46
-        width: 226
-        height: 87
+        x: 768
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -773,8 +866,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 556c659e0c2dbac50800000000000000
-      internalID: 6677662598497224277
+      spriteID: e0ad23d81ab7f2000800000000000000
+      internalID: 13365257694272014
       vertices: []
       indices: 
       edges: []
@@ -783,10 +876,10 @@ TextureImporter:
       name: Spider_Idle_28
       rect:
         serializedVersion: 2
-        x: 1037
-        y: 46
-        width: 218
-        height: 85
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -794,8 +887,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0333ffaf640f7d90800000000000000
-      internalID: -7097949609972780277
+      spriteID: 11f98916b72a79ef0800000000000000
+      internalID: -101433815790477551
       vertices: []
       indices: 
       edges: []
@@ -804,10 +897,10 @@ TextureImporter:
       name: Spider_Idle_29
       rect:
         serializedVersion: 2
-        x: 1293
-        y: 46
-        width: 210
-        height: 83
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -815,8 +908,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b3abdfceb4779d40800000000000000
-      internalID: 5591065825283646386
+      spriteID: 930ee3fb5d01291c0800000000000000
+      internalID: -4498514567567056839
       vertices: []
       indices: 
       edges: []
@@ -825,10 +918,10 @@ TextureImporter:
       name: Spider_Idle_30
       rect:
         serializedVersion: 2
-        x: 1549
-        y: 46
-        width: 207
-        height: 82
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -836,8 +929,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84aba9463121e7690800000000000000
-      internalID: -7602619246453278136
+      spriteID: 1734b8049c35512f0800000000000000
+      internalID: -1002803218183666831
       vertices: []
       indices: 
       edges: []

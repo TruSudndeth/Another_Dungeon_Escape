@@ -68,6 +68,72 @@ TextureImporter:
   - first:
       213: 4033437065222176047
     second: Warrior_Run_21
+  - first:
+      213: -3820725060996757558
+    second: Warrior_Run_0
+  - first:
+      213: 2804486740472064032
+    second: Warrior_Run_1
+  - first:
+      213: -6073777427961286166
+    second: Warrior_Run_2
+  - first:
+      213: 5689417282007964900
+    second: Warrior_Run_3
+  - first:
+      213: 4246889356949939308
+    second: Warrior_Run_4
+  - first:
+      213: -5131418280523589104
+    second: Warrior_Run_5
+  - first:
+      213: 3571816428226382452
+    second: Warrior_Run_6
+  - first:
+      213: 3859260567455939912
+    second: Warrior_Run_7
+  - first:
+      213: -5196157401705551721
+    second: Warrior_Run_8
+  - first:
+      213: -3455862438265548795
+    second: Warrior_Run_9
+  - first:
+      213: -5456584627948529458
+    second: Warrior_Run_10
+  - first:
+      213: -7188860617263323264
+    second: Warrior_Run_11
+  - first:
+      213: 8092566437916503468
+    second: Warrior_Run_12
+  - first:
+      213: 4698405687822404227
+    second: Warrior_Run_13
+  - first:
+      213: -3704585715463266917
+    second: Warrior_Run_14
+  - first:
+      213: 7079036303990289189
+    second: Warrior_Run_15
+  - first:
+      213: -2867497498889477622
+    second: Warrior_Run_16
+  - first:
+      213: -3468346349675193603
+    second: Warrior_Run_17
+  - first:
+      213: 1733680238378181798
+    second: Warrior_Run_18
+  - first:
+      213: 963042966728634510
+    second: Warrior_Run_19
+  - first:
+      213: -6622071677634984060
+    second: Warrior_Run_20
+  - first:
+      213: -9124660515322915990
+    second: Warrior_Run_21
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -168,10 +234,10 @@ TextureImporter:
       name: Warrior_Run_0
       rect:
         serializedVersion: 2
-        x: 103
-        y: 566
-        width: 68
-        height: 129
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dedc3a79c0aef9f0800000000000000
-      internalID: -432731726981308715
+      spriteID: ac70bd2dcce0afac0800000000000000
+      internalID: -3820725060996757558
       vertices: []
       indices: 
       edges: []
@@ -189,10 +255,10 @@ TextureImporter:
       name: Warrior_Run_1
       rect:
         serializedVersion: 2
-        x: 354
-        y: 567
-        width: 63
-        height: 135
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 995a9527b52bba670800000000000000
-      internalID: 8551124423323264409
+      spriteID: 0286127e4d98be620800000000000000
+      internalID: 2804486740472064032
       vertices: []
       indices: 
       edges: []
@@ -210,10 +276,10 @@ TextureImporter:
       name: Warrior_Run_2
       rect:
         serializedVersion: 2
-        x: 603
-        y: 567
-        width: 70
-        height: 139
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,8 +287,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5f447d376e66a880800000000000000
-      internalID: -8600065048725663906
+      spriteID: ae1f4990c9b95bba0800000000000000
+      internalID: -6073777427961286166
       vertices: []
       indices: 
       edges: []
@@ -231,10 +297,10 @@ TextureImporter:
       name: Warrior_Run_3
       rect:
         serializedVersion: 2
-        x: 854
-        y: 569
-        width: 75
-        height: 138
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,8 +308,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fb0b96b2e9dbfc20800000000000000
-      internalID: 3241423924572654580
+      spriteID: 4ec9d09cfded4fe40800000000000000
+      internalID: 5689417282007964900
       vertices: []
       indices: 
       edges: []
@@ -252,10 +318,10 @@ TextureImporter:
       name: Warrior_Run_4
       rect:
         serializedVersion: 2
-        x: 1106
-        y: 567
-        width: 78
-        height: 136
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,8 +329,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1938e1d550d9d1fa0800000000000000
-      internalID: -5828329696384875631
+      spriteID: c6463618e5bffea30800000000000000
+      internalID: 4246889356949939308
       vertices: []
       indices: 
       edges: []
@@ -273,10 +339,10 @@ TextureImporter:
       name: Warrior_Run_5
       rect:
         serializedVersion: 2
-        x: 1359
-        y: 571
-        width: 81
-        height: 128
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,8 +350,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e912a355824911c10800000000000000
-      internalID: 2022560608615539102
+      spriteID: 01a1273e24a89c8b0800000000000000
+      internalID: -5131418280523589104
       vertices: []
       indices: 
       edges: []
@@ -294,10 +360,10 @@ TextureImporter:
       name: Warrior_Run_6
       rect:
         serializedVersion: 2
-        x: 1616
-        y: 570
-        width: 80
-        height: 131
+        x: 1536
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,8 +371,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1f6bdc89acc60750800000000000000
-      internalID: 6270924559744724765
+      spriteID: 47a865ffd14a19130800000000000000
+      internalID: 3571816428226382452
       vertices: []
       indices: 
       edges: []
@@ -315,10 +381,10 @@ TextureImporter:
       name: Warrior_Run_7
       rect:
         serializedVersion: 2
-        x: 1872
-        y: 567
-        width: 77
-        height: 133
+        x: 1792
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,8 +392,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8712459e46970c20800000000000000
-      internalID: 3172669726761555855
+      spriteID: 84d32e2f909de8530800000000000000
+      internalID: 3859260567455939912
       vertices: []
       indices: 
       edges: []
@@ -336,10 +402,10 @@ TextureImporter:
       name: Warrior_Run_8
       rect:
         serializedVersion: 2
-        x: 86
-        y: 310
-        width: 75
-        height: 126
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,8 +413,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0db4bfc41f24de630800000000000000
-      internalID: 3957893251674622928
+      spriteID: 798e252af5a83e7b0800000000000000
+      internalID: -5196157401705551721
       vertices: []
       indices: 
       edges: []
@@ -357,10 +423,10 @@ TextureImporter:
       name: Warrior_Run_9
       rect:
         serializedVersion: 2
-        x: 348
-        y: 309
-        width: 86
-        height: 117
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,8 +434,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40f61b19fb0e75410800000000000000
-      internalID: 1465887317120085764
+      spriteID: 500119e1c6f4a00d0800000000000000
+      internalID: -3455862438265548795
       vertices: []
       indices: 
       edges: []
@@ -378,10 +444,10 @@ TextureImporter:
       name: Warrior_Run_10
       rect:
         serializedVersion: 2
-        x: 611
-        y: 310
-        width: 94
-        height: 106
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,8 +455,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d94fd8e44443deb40800000000000000
-      internalID: 5471086590305367197
+      spriteID: ec8554ce0315644b0800000000000000
+      internalID: -5456584627948529458
       vertices: []
       indices: 
       edges: []
@@ -399,10 +465,10 @@ TextureImporter:
       name: Warrior_Run_11
       rect:
         serializedVersion: 2
-        x: 871
-        y: 310
-        width: 93
-        height: 104
+        x: 768
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,8 +476,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2027a9a5088a4840800000000000000
-      internalID: 5209125476909916207
+      spriteID: 08769385b590c3c90800000000000000
+      internalID: -7188860617263323264
       vertices: []
       indices: 
       edges: []
@@ -420,10 +486,10 @@ TextureImporter:
       name: Warrior_Run_12
       rect:
         serializedVersion: 2
-        x: 1121
-        y: 311
-        width: 98
-        height: 104
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,8 +497,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 595b2fa6c9748a580800000000000000
-      internalID: -8815717533442984555
+      spriteID: cade24d8c429e4070800000000000000
+      internalID: 8092566437916503468
       vertices: []
       indices: 
       edges: []
@@ -441,10 +507,10 @@ TextureImporter:
       name: Warrior_Run_13
       rect:
         serializedVersion: 2
-        x: 1370
-        y: 311
-        width: 104
-        height: 106
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,8 +518,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ad41da03903a8380800000000000000
-      internalID: -8968302299855106649
+      spriteID: 38a44517417143140800000000000000
+      internalID: 4698405687822404227
       vertices: []
       indices: 
       edges: []
@@ -462,10 +528,10 @@ TextureImporter:
       name: Warrior_Run_14
       rect:
         serializedVersion: 2
-        x: 1621
-        y: 312
-        width: 107
-        height: 107
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,8 +539,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c9ccffed3119ca70800000000000000
-      internalID: 8847621900663048646
+      spriteID: b9d53d56beaa69cc0800000000000000
+      internalID: -3704585715463266917
       vertices: []
       indices: 
       edges: []
@@ -483,10 +549,10 @@ TextureImporter:
       name: Warrior_Run_15
       rect:
         serializedVersion: 2
-        x: 1874
-        y: 313
-        width: 109
-        height: 107
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,8 +560,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70ea98aef0d286ef0800000000000000
-      internalID: -114792244115296761
+      spriteID: 5237f6b130acd3260800000000000000
+      internalID: 7079036303990289189
       vertices: []
       indices: 
       edges: []
@@ -504,10 +570,10 @@ TextureImporter:
       name: Warrior_Run_16
       rect:
         serializedVersion: 2
-        x: 80
-        y: 58
-        width: 109
-        height: 106
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,8 +581,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 835eb4d54f88afa40800000000000000
-      internalID: 5402781286102983992
+      spriteID: a022f58a73a9438d0800000000000000
+      internalID: -2867497498889477622
       vertices: []
       indices: 
       edges: []
@@ -525,10 +591,10 @@ TextureImporter:
       name: Warrior_Run_17
       rect:
         serializedVersion: 2
-        x: 339
-        y: 56
-        width: 106
-        height: 108
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,8 +602,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cebe0dbadc6d2f60800000000000000
-      internalID: 8011178998892510919
+      spriteID: dfa569dfe55fddfc0800000000000000
+      internalID: -3468346349675193603
       vertices: []
       indices: 
       edges: []
@@ -546,10 +612,10 @@ TextureImporter:
       name: Warrior_Run_18
       rect:
         serializedVersion: 2
-        x: 596
-        y: 54
-        width: 105
-        height: 109
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,8 +623,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7cc8549244bbfe80800000000000000
-      internalID: -8143717303119721349
+      spriteID: 6a465aacdf44f0810800000000000000
+      internalID: 1733680238378181798
       vertices: []
       indices: 
       edges: []
@@ -567,10 +633,10 @@ TextureImporter:
       name: Warrior_Run_19
       rect:
         serializedVersion: 2
-        x: 856
-        y: 53
-        width: 99
-        height: 108
+        x: 768
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,8 +644,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fd825a574c761fd0800000000000000
-      internalID: -2371571507864105488
+      spriteID: e807c4fc97a6d5d00800000000000000
+      internalID: 963042966728634510
       vertices: []
       indices: 
       edges: []
@@ -588,10 +654,10 @@ TextureImporter:
       name: Warrior_Run_20
       rect:
         serializedVersion: 2
-        x: 1119
-        y: 54
-        width: 86
-        height: 118
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,8 +665,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7245fd98c5ddd1f0800000000000000
-      internalID: -1018422883095592323
+      spriteID: 4874469f4eca914a0800000000000000
+      internalID: -6622071677634984060
       vertices: []
       indices: 
       edges: []
@@ -609,10 +675,10 @@ TextureImporter:
       name: Warrior_Run_21
       rect:
         serializedVersion: 2
-        x: 1383
-        y: 54
-        width: 68
-        height: 129
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -620,8 +686,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2d367804a5a9f730800000000000000
-      internalID: 4033437065222176047
+      spriteID: a6315281b91be5180800000000000000
+      internalID: -9124660515322915990
       vertices: []
       indices: 
       edges: []
