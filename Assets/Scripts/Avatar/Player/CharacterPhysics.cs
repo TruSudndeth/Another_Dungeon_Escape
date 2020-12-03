@@ -23,7 +23,7 @@ public class CharacterPhysics : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.L))
+        if(Input.GetKeyDown(KeyCode.L)) // Delete Line and Code Block
         {
             Debug.Break();
             Character_RB.velocity = new Vector2(0, -1000000f); //Testing High Speed Velocity Ground Clipping

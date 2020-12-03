@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerInput : CharacterPhysics
 {
     //ToDo's
-    // RayCast A Shere instead of a line for Rock Glitches player jumps on rocks with no input
+    // RayCast A Sphere instead of a line for Rock Glitches player jumps on rocks with no input
+    // a high start velocity clips through ground before first frame (Look up the order of execution)
     [SerializeField]
     private float Speed = 1;
     [SerializeField]
@@ -63,11 +64,9 @@ public class PlayerInput : CharacterPhysics
                 Debug.DrawRay(CharacterColliderOffset,Vector2.down * NextFramePosition(), Color.green); // Delete
                 if(hit2D.collider != null)
                 {
-                    Debug.Log(hit2D.collider.name);
                     PlayerHight_GroundCheck = hit2D.distance;
-                    if(NextFramePosition()+0.01f >= PlayerHight_GroundCheck)
+                    if(NextFramePosition() >= PlayerHight_GroundCheck)
                     {
-                        Debug.Log("Ground Triggered");
                         Character_RB.velocity = Vector2.zero;
                         transform.position = hit2D.point + new Vector2(0, Collider2D_Offset.y/2);
                     }
