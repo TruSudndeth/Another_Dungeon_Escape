@@ -8,8 +8,8 @@ public class CharacterPhysics : MonoBehaviour
     //ToDo's
     //Player 2D collider at high speeds Clipping (Y Velocity 60) must Fix
     // Floor Composit collider is uneven and moves my character sround with zero input. (Must Fix)
+
     protected Rigidbody2D Character_RB;
-    [SerializeField]
     protected Vector2 ApplyMovment = new Vector2();
     protected CapsuleCollider2D _collider2D;
 
@@ -33,7 +33,7 @@ public class CharacterPhysics : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Character_RB.position += ApplyMovment * Time.fixedDeltaTime;
+        Character_RB.velocity += ApplyMovment * Time.fixedDeltaTime;
     }
 
     protected virtual void InputMovement()

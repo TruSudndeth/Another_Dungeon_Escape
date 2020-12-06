@@ -8,17 +8,17 @@ public class PlayerInput : CharacterPhysics
     // RayCast A Sphere instead of a line for Rock Glitches player jumps on rocks with no input
     // a high start velocity clips through ground before first frame (Look up the order of execution)
     [SerializeField]
-    private float Speed = 1;
-    [SerializeField]
     private float jumpForce = 10;
     [SerializeField]
     private LayerMask layerMasking;
     private float rb_DeltaY_Velocity = 0;
     [SerializeField]
-    private Vector2 Player_Input = new Vector2();
+    public Vector2 Player_Input = new Vector2();
     private Vector2 Collider2D_Offset;
     [SerializeField]
     private float PlayerHight_GroundCheck = 0;
+    [SerializeField]
+    private float Speed;
 
     private void Start()
     {
@@ -31,7 +31,7 @@ public class PlayerInput : CharacterPhysics
 
     protected override void InputMovement()
     {
-        Player_Input.x = Input.GetAxis("Horizontal") * Speed;
+        Player_Input.x = Input.GetAxis("Horizontal");
         if (Input.GetKeyDown(KeyCode.Space) && Player_Input.y == 0)
         {
             Player_Input.y = jumpForce;
@@ -49,6 +49,7 @@ public class PlayerInput : CharacterPhysics
         }
         GroundChecker();
         ApplyMovment = Player_Input;
+        ApplyMovment.x *= Speed;
     }
 
     private void GroundChecker()
