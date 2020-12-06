@@ -8,8 +8,11 @@ public class Player_Animations : MonoBehaviour, IPlayerAnimator
     private Animator animator;
     private Vector2 AnimationInput;
     private PlayerInput _PlayerInput;
+    private Rigidbody2D RBCharacter;
+    private bool grounded = false;
     void Awake()
     {
+        RBCharacter = GetComponent<Rigidbody2D>();
         _PlayerInput = GetComponent<PlayerInput>();
         animator = _PlayerInput.GetComponentInChildren<Animator>();
         if(!animator)
@@ -18,11 +21,17 @@ public class Player_Animations : MonoBehaviour, IPlayerAnimator
         }
     }
 
+    private void Update()
+    {
+        grounded = _PlayerInput.Grounded;
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
+        
         AnimationInput.x = _PlayerInput.Player_Input.x;
-        AnimationInput.y = _PlayerInput.Player_Input.y;
+        AnimationInput.y = Mathf.Clamp(RBCharacter.velocity.y, 0, 1);
         ApplyAnimation();
     }
 
@@ -30,5 +39,6 @@ public class Player_Animations : MonoBehaviour, IPlayerAnimator
     {
         animator.SetFloat("InputX", AnimationInput.x);
         animator.SetFloat("InputY", AnimationInput.y);
+        animator.SetBool("Grounded", grounded);
     }
 }

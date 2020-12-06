@@ -6,6 +6,7 @@ using UnityEngine;
 public class CharacterPhysics : MonoBehaviour
 {
     //ToDo's
+    // convert line 37 to Velcoity move instead of moving with rigigbody.position
     //Player 2D collider at high speeds Clipping (Y Velocity 60) must Fix
     // Floor Composit collider is uneven and moves my character sround with zero input. (Must Fix)
 
