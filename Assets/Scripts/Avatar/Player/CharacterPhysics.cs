@@ -34,7 +34,7 @@ public class CharacterPhysics : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Character_RB.velocity += ApplyMovment * Time.fixedDeltaTime;
+        Character_RB.velocity = new Vector2(ApplyMovment.x * Time.fixedDeltaTime, Character_RB.velocity.y);
     }
 
     protected virtual void InputMovement()
