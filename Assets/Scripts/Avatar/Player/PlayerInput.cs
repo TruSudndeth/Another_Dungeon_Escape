@@ -25,16 +25,12 @@ public class PlayerInput : CharacterPhysics
     private void Start()
     {
         Collider2D_Offset = _collider2D.size;
-        if(Collider2D_Offset == Vector2.zero)
-        {
-            StartCoroutine(ColliderCheck());
-        }
     }
 
     protected override void InputMovement()
     {
         Player_Input.x = Input.GetAxis("Horizontal");
-        if ((Input.GetKeyDown(KeyCode.Space)) && Grounded)
+        if (Input.GetKeyDown(KeyCode.Space) && Grounded)
         {
             Character_RB.velocity = new Vector2(Character_RB.velocity.x, 0);
             Character_RB.velocity += new Vector2(0, jumpForce);
@@ -66,10 +62,8 @@ public class PlayerInput : CharacterPhysics
     private void DynamicVelocity(int Y_DirectionStartOffset, Vector2 CastDirection)
     {
         RaycastHit2D hit2D;
-        Vector2 CharacterColliderOffset = transform.position;
-        CharacterColliderOffset.y += Collider2D() * Y_DirectionStartOffset;
-        hit2D = Physics2D.Raycast(CharacterColliderOffset, CastDirection, NextFramePosition(), layerMasking);
-        Debug.DrawRay(CharacterColliderOffset, CastDirection * NextFramePosition(), Color.green); // Delete
+        hit2D = Physics2D.Raycast(transform.position, CastDirection, NextFramePosition(), layerMasking);
+        Debug.DrawRay(transform.position, CastDirection * NextFramePosition(), Color.yellow); // Delete
         if (hit2D.collider != null)
         {
             PlayerHight_GroundCheck = hit2D.distance;
@@ -88,20 +82,12 @@ public class PlayerInput : CharacterPhysics
 
     private float NextFramePosition()
     {
-        return Mathf.Abs(Character_RB.velocity.y) * Time.fixedDeltaTime;
+        return Mathf.Abs(Character_RB.velocity.y) * Time.fixedDeltaTime + 0.01f + Collider2D();
     }
 
     private float Collider2D()
     {
-       return _collider2D.size.y / 2;
-    }
-
-    private IEnumerator ColliderCheck()
-    {
-        yield return new WaitForEndOfFrame();
-        if(Collider2D_Offset == Vector2.zero)
-        {
-            Debug.Log("Coroutine Find Collider Failed" + transform.name);
-        }
+        Collider2D_Offset = _collider2D.size;
+        return _collider2D.size.y / 2;
     }
 }
