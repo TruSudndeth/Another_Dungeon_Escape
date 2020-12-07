@@ -34,11 +34,12 @@ public class PlayerInput : CharacterPhysics
     protected override void InputMovement()
     {
         Player_Input.x = Input.GetAxis("Horizontal");
-        if (Input.GetKeyDown(KeyCode.Space) && Grounded)
+        if ((Input.GetKeyDown(KeyCode.Space)) && Grounded)
         {
-            Character_RB.velocity = Vector2.zero;
+            Character_RB.velocity = new Vector2(Character_RB.velocity.x, 0);
             Character_RB.velocity += new Vector2(0, jumpForce);
             Jumped = true;
+            Grounded = false;
         }
         GroundChecker();
         ApplyMovment = Player_Input;
@@ -48,27 +49,39 @@ public class PlayerInput : CharacterPhysics
 
     private void GroundChecker()
     {
-        if(Character_RB.velocity.y < -0.1f || Character_RB.velocity.y > 0.1f) // needs a range for uneven ground
+        if(Character_RB.velocity.y < -0.5f || Character_RB.velocity.y > 0.5f) // needs a range for uneven ground
         {
-            RaycastHit2D hit2D;
-            if(Grounded) Grounded = false;
             if(Character_RB.velocity.y < 0)
             {
-                Vector2 CharacterColliderOffset = transform.position;
-                CharacterColliderOffset.y -= Collider2D();
-                hit2D = Physics2D.Raycast(CharacterColliderOffset, Vector3.down, NextFramePosition(), layerMasking);
-                Debug.DrawRay(CharacterColliderOffset,Vector2.down * NextFramePosition(), Color.green); // Delete
-                if(hit2D.collider != null)
+                Grounded = false;
+                DynamicVelocity(-1, Vector2.down);
+            }
+            if(Character_RB.velocity.y > 0)
+            {
+                DynamicVelocity(1, Vector2.up);
+            }
+        }
+    }
+
+    private void DynamicVelocity(int Y_DirectionStartOffset, Vector2 CastDirection)
+    {
+        RaycastHit2D hit2D;
+        Vector2 CharacterColliderOffset = transform.position;
+        CharacterColliderOffset.y += Collider2D() * Y_DirectionStartOffset;
+        hit2D = Physics2D.Raycast(CharacterColliderOffset, CastDirection, NextFramePosition(), layerMasking);
+        Debug.DrawRay(CharacterColliderOffset, CastDirection * NextFramePosition(), Color.green); // Delete
+        if (hit2D.collider != null)
+        {
+            PlayerHight_GroundCheck = hit2D.distance;
+            if (NextFramePosition() >= PlayerHight_GroundCheck)
+            {
+                if(Y_DirectionStartOffset < 0)
                 {
-                    PlayerHight_GroundCheck = hit2D.distance;
-                    if(NextFramePosition() >= PlayerHight_GroundCheck)
-                    {
-                        Jumped = false;
-                        Grounded = true;
-                        Character_RB.velocity = Vector2.zero;
-                        transform.position = hit2D.point + new Vector2(0, Collider2D_Offset.y/2);
-                    }
+                    Grounded = true;
+                    Jumped = false;
                 }
+                Character_RB.velocity = Vector2.zero;
+                transform.position = hit2D.point + new Vector2(0, Collider2D_Offset.y / 2 * -Y_DirectionStartOffset);
             }
         }
     }

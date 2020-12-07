@@ -31,7 +31,6 @@ public class Player_Animations : MonoBehaviour, IPlayerAnimator
     // Update is called once per frame
     void FixedUpdate()
     {
-        
         AnimationInput.x = _PlayerInput.Player_Input.x;
         AnimationInput.y = Mathf.Clamp(RBCharacter.velocity.y, 0, 1);
         ApplyAnimation();
