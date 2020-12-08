@@ -7,19 +7,23 @@ public class PlayerInput : CharacterPhysics
     //ToDo's
     // RayCast A Sphere instead of a line for Rock Glitches player jumps on rocks with no input
     // a high start velocity clips through ground before first frame (Look up the order of execution)
+    // player infinate jump animation when Jump is true by default
+    [SerializeField]
+    private float Speed;
     [SerializeField]
     private float jumpForce = 10;
     [SerializeField]
     private LayerMask layerMasking;
-    private Vector2 Collider2D_Offset;
-    public bool Jumped = false;
     [SerializeField]
     private float PlayerHight_GroundCheck = 0;
     [SerializeField]
-    private float Speed;
-
-    [SerializeField]
     public Vector2 Player_Input = new Vector2();
+
+    private Vector2 Collider2D_Offset;
+    private bool flipModifyer = true;
+
+    public bool FlipModifyer { get { return flipModifyer; } private set { } }
+    public bool Jumped = false;
     public bool Grounded = false;
     private void Start()
     {
@@ -28,7 +32,7 @@ public class PlayerInput : CharacterPhysics
 
     protected override void InputMovement()
     {
-        Player_Input.x = Input.GetAxis("Horizontal");
+        Player_Input.x = Input.GetAxisRaw("Horizontal");
         if (Input.GetKeyDown(KeyCode.Space) && Grounded)
         {
             Character_RB.velocity = new Vector2(Character_RB.velocity.x, 0);
@@ -45,9 +49,9 @@ public class PlayerInput : CharacterPhysics
         {
             Player_Input.x = Mathf.Clamp(Player_Input.x, -0.5f, 0.5f);
         }
+        FlipState();
         ApplyMovment = Player_Input;
         ApplyMovment.x *= Speed;
-
     }
 
     private void GroundChecker()
@@ -63,6 +67,18 @@ public class PlayerInput : CharacterPhysics
             {
                 DynamicVelocity(1, Vector2.up);
             }
+        }
+    }
+
+    private void FlipState()
+    {
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            flipModifyer = true;
+        }
+        else
+        {
+            flipModifyer = false;
         }
     }
 
