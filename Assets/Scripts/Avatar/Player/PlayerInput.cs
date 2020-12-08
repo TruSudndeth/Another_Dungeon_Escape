@@ -21,12 +21,13 @@ public class PlayerInput : CharacterPhysics
 
     private Vector2 Collider2D_Offset;
     private bool flipModifyer = true;
-
     public bool FlipModifyer { get { return flipModifyer; } private set { } }
     public bool Jumped = false;
     public bool Grounded = false;
+    public ResetBool<bool> SwingAttack;
     private void Start()
     {
+        SwingAttack = new ResetBool<bool>(false);
         Collider2D_Offset = _collider2D.size;
     }
 
@@ -41,7 +42,7 @@ public class PlayerInput : CharacterPhysics
             Grounded = false;
         }
         GroundChecker();
-        if(Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             Player_Input.x = Mathf.Clamp(Player_Input.x, -1, 1);
         }
@@ -50,20 +51,25 @@ public class PlayerInput : CharacterPhysics
             Player_Input.x = Mathf.Clamp(Player_Input.x, -0.5f, 0.5f);
         }
         FlipState();
+        if (Input.GetMouseButtonDown(0))
+        {
+            SwingAttack.Value = true;
+            StartCoroutine(ResetVariableNextFrame(SwingAttack));
+        }
         ApplyMovment = Player_Input;
         ApplyMovment.x *= Speed;
     }
 
     private void GroundChecker()
     {
-        if((Character_RB.velocity.y < -0.5f || Character_RB.velocity.y > 0.5f) || !Grounded) // needs a range for uneven ground
+        if ((Character_RB.velocity.y < -0.5f || Character_RB.velocity.y > 0.5f) || !Grounded) // needs a range for uneven ground
         {
-            if(Character_RB.velocity.y <= 0)
+            if (Character_RB.velocity.y <= 0)
             {
                 Grounded = false;
                 DynamicVelocity(-1, Vector2.down);
             }
-            if(Character_RB.velocity.y > 0)
+            if (Character_RB.velocity.y > 0)
             {
                 DynamicVelocity(1, Vector2.up);
             }
@@ -92,7 +98,7 @@ public class PlayerInput : CharacterPhysics
             PlayerHight_GroundCheck = hit2D.distance;
             if (NextFramePosition() >= PlayerHight_GroundCheck)
             {
-                if(Y_DirectionStartOffset < 0)
+                if (Y_DirectionStartOffset < 0)
                 {
                     Grounded = true;
                     Jumped = false;
@@ -113,4 +119,21 @@ public class PlayerInput : CharacterPhysics
         Collider2D_Offset = _collider2D.size;
         return _collider2D.size.y / 2;
     }
+
+    private IEnumerator ResetVariableNextFrame(ResetBool<bool> toReset)
+    {
+        yield return new WaitForFixedUpdate();
+        toReset.Value = false;
+    }
+
+}
+public class ResetBool<T>
+{
+    private T resetBool;
+    public T Value { get { return resetBool; } set { resetBool = value; } }
+    public ResetBool(T _ResetBol)
+    {
+        resetBool = _ResetBol;
+    }
+    
 }

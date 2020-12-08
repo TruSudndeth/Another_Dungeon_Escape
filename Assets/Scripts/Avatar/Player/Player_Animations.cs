@@ -10,6 +10,7 @@ public class Player_Animations : MonoBehaviour, IPlayerAnimator
     private PlayerInput _PlayerInput;
     private SpriteRenderer spriteRender;
     
+    private bool Swing = false;
     private bool Jumped = false;
     private bool grounded = false;
     private bool FlipSprite = false;
@@ -31,6 +32,7 @@ public class Player_Animations : MonoBehaviour, IPlayerAnimator
     {
         grounded = _PlayerInput.Grounded;
         Jumped = _PlayerInput.Jumped;
+        Swing = _PlayerInput.SwingAttack.Value;
     }
 
     // Update is called once per frame
@@ -44,10 +46,12 @@ public class Player_Animations : MonoBehaviour, IPlayerAnimator
 
     public void ApplyAnimation()
     {
+
         animator.SetFloat("InputX", AnimationInput.x);
         animator.SetFloat("InputY", AnimationInput.y);
         animator.SetBool("Jump", Jumped);
         animator.SetBool("Grounded", grounded);
+        animator.SetBool("Swing", Swing);
     }
 
     private void FlipX()
