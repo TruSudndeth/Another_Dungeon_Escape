@@ -11,7 +11,6 @@ public class PlayerInput : CharacterPhysics
     private float jumpForce = 10;
     [SerializeField]
     private LayerMask layerMasking;
-    private float rb_DeltaY_Velocity = 0;
     private Vector2 Collider2D_Offset;
     public bool Jumped = false;
     [SerializeField]
@@ -38,6 +37,14 @@ public class PlayerInput : CharacterPhysics
             Grounded = false;
         }
         GroundChecker();
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            Player_Input.x = Mathf.Clamp(Player_Input.x, -1, 1);
+        }
+        else
+        {
+            Player_Input.x = Mathf.Clamp(Player_Input.x, -0.5f, 0.5f);
+        }
         ApplyMovment = Player_Input;
         ApplyMovment.x *= Speed;
 
@@ -45,9 +52,9 @@ public class PlayerInput : CharacterPhysics
 
     private void GroundChecker()
     {
-        if(Character_RB.velocity.y < -0.5f || Character_RB.velocity.y > 0.5f) // needs a range for uneven ground
+        if((Character_RB.velocity.y < -0.5f || Character_RB.velocity.y > 0.5f) || !Grounded) // needs a range for uneven ground
         {
-            if(Character_RB.velocity.y < 0)
+            if(Character_RB.velocity.y <= 0)
             {
                 Grounded = false;
                 DynamicVelocity(-1, Vector2.down);
