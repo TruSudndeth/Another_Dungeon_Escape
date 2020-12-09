@@ -51,7 +51,7 @@ public class PlayerInput : CharacterPhysics
             Player_Input.x = Mathf.Clamp(Player_Input.x, -0.5f, 0.5f);
         }
         FlipState();
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !SwingAttack.Value)
         {
             SwingAttack.Value = true;
             StartCoroutine(ResetVariableNextFrame(SwingAttack));
@@ -122,7 +122,7 @@ public class PlayerInput : CharacterPhysics
 
     private IEnumerator ResetVariableNextFrame(ResetBool<bool> toReset)
     {
-        yield return new WaitForFixedUpdate();
+        yield return new WaitForSeconds(0.5f); // nasty code
         toReset.Value = false;
     }
 

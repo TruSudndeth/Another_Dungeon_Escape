@@ -10,7 +10,8 @@ public class Player_Animations : MonoBehaviour, IPlayerAnimator
     private PlayerInput _PlayerInput;
     private SpriteRenderer spriteRender;
     
-    private bool Swing = false;
+    private bool swing = false;
+    public bool Swing { get { return swing; } }
     private bool Jumped = false;
     private bool grounded = false;
     private bool FlipSprite = false;
@@ -32,10 +33,9 @@ public class Player_Animations : MonoBehaviour, IPlayerAnimator
     {
         grounded = _PlayerInput.Grounded;
         Jumped = _PlayerInput.Jumped;
-        Swing = _PlayerInput.SwingAttack.Value;
+        swing = _PlayerInput.SwingAttack.Value;
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         AnimationInput.x = _PlayerInput.Player_Input.x * InvertAnimation;
@@ -51,7 +51,7 @@ public class Player_Animations : MonoBehaviour, IPlayerAnimator
         animator.SetFloat("InputY", AnimationInput.y);
         animator.SetBool("Jump", Jumped);
         animator.SetBool("Grounded", grounded);
-        animator.SetBool("Swing", Swing);
+        animator.SetBool("Swing", swing);
     }
 
     private void FlipX()
