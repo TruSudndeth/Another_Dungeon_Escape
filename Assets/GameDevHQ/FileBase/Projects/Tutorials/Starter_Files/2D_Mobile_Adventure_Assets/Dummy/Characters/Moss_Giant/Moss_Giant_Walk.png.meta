@@ -50,6 +50,54 @@ TextureImporter:
   - first:
       213: 8902646133955017845
     second: Moss_Giant_Walk_15
+  - first:
+      213: -8637916124372168856
+    second: Moss_Giant_Walk_0
+  - first:
+      213: -942382730007068672
+    second: Moss_Giant_Walk_1
+  - first:
+      213: -1520489174834290155
+    second: Moss_Giant_Walk_2
+  - first:
+      213: 6805968079564798940
+    second: Moss_Giant_Walk_3
+  - first:
+      213: 7077693526109287224
+    second: Moss_Giant_Walk_4
+  - first:
+      213: 8505513383673842939
+    second: Moss_Giant_Walk_5
+  - first:
+      213: 877778049880160681
+    second: Moss_Giant_Walk_6
+  - first:
+      213: -5118601478658688174
+    second: Moss_Giant_Walk_7
+  - first:
+      213: 7929238983716616076
+    second: Moss_Giant_Walk_8
+  - first:
+      213: -6220908447700419684
+    second: Moss_Giant_Walk_9
+  - first:
+      213: 6589386931673267405
+    second: Moss_Giant_Walk_10
+  - first:
+      213: 5122495874929665530
+    second: Moss_Giant_Walk_11
+  - first:
+      213: 4006481194910214167
+    second: Moss_Giant_Walk_12
+  - first:
+      213: 7563013363880870001
+    second: Moss_Giant_Walk_13
+  - first:
+      213: -1090572396221198838
+    second: Moss_Giant_Walk_14
+  - first:
+      213: -7973777264265894976
+    second: Moss_Giant_Walk_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -150,10 +198,10 @@ TextureImporter:
       name: Moss_Giant_Walk_0
       rect:
         serializedVersion: 2
-        x: 175
-        y: 1644
-        width: 171
-        height: 231
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,8 +209,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cea25addabdd9640800000000000000
-      internalID: 5088464693737205441
+      spriteID: 86f8d2fec05ff1880800000000000000
+      internalID: -8637916124372168856
       vertices: []
       indices: 
       edges: []
@@ -171,10 +219,10 @@ TextureImporter:
       name: Moss_Giant_Walk_1
       rect:
         serializedVersion: 2
-        x: 678
-        y: 1644
-        width: 171
-        height: 230
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +230,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edf2d93e6f8a1e5e0800000000000000
-      internalID: -1882037390930006050
+      spriteID: 000477766ebfbe2f0800000000000000
+      internalID: -942382730007068672
       vertices: []
       indices: 
       edges: []
@@ -192,10 +240,10 @@ TextureImporter:
       name: Moss_Giant_Walk_2
       rect:
         serializedVersion: 2
-        x: 1176
-        y: 1645
-        width: 188
-        height: 226
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f520391bff4b69910800000000000000
-      internalID: 1843860107743658591
+      spriteID: 512ec21c62326eae0800000000000000
+      internalID: -1520489174834290155
       vertices: []
       indices: 
       edges: []
@@ -213,10 +261,10 @@ TextureImporter:
       name: Moss_Giant_Walk_3
       rect:
         serializedVersion: 2
-        x: 1679
-        y: 1644
-        width: 199
-        height: 222
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +272,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3eca5517bb5ccae0800000000000000
-      internalID: -1527745331690025409
+      spriteID: cdb7b17a8e7a37e50800000000000000
+      internalID: 6805968079564798940
       vertices: []
       indices: 
       edges: []
@@ -234,10 +282,10 @@ TextureImporter:
       name: Moss_Giant_Walk_4
       rect:
         serializedVersion: 2
-        x: 133
-        y: 1135
-        width: 209
-        height: 204
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,8 +293,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 718ed851982d52790800000000000000
-      internalID: -7555401313630164969
+      spriteID: 83373d443c4093260800000000000000
+      internalID: 7077693526109287224
       vertices: []
       indices: 
       edges: []
@@ -255,10 +303,10 @@ TextureImporter:
       name: Moss_Giant_Walk_5
       rect:
         serializedVersion: 2
-        x: 647
-        y: 1135
-        width: 208
-        height: 195
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +314,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef435162e62565d50800000000000000
-      internalID: 6725653726563218686
+      spriteID: bfcc53abb57a90670800000000000000
+      internalID: 8505513383673842939
       vertices: []
       indices: 
       edges: []
@@ -276,10 +324,10 @@ TextureImporter:
       name: Moss_Giant_Walk_6
       rect:
         serializedVersion: 2
-        x: 1169
-        y: 1136
-        width: 194
-        height: 199
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,8 +335,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c144207189d61600800000000000000
-      internalID: 438777163670634951
+      spriteID: 9a9fdb65c7e7e2c00800000000000000
+      internalID: 877778049880160681
       vertices: []
       indices: 
       edges: []
@@ -297,10 +345,10 @@ TextureImporter:
       name: Moss_Giant_Walk_7
       rect:
         serializedVersion: 2
-        x: 1699
-        y: 1135
-        width: 203
-        height: 212
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,8 +356,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29e6ba63fb24b1170800000000000000
-      internalID: 8150181339680435858
+      spriteID: 25b72cd131317f8b0800000000000000
+      internalID: -5118601478658688174
       vertices: []
       indices: 
       edges: []
@@ -318,10 +366,10 @@ TextureImporter:
       name: Moss_Giant_Walk_8
       rect:
         serializedVersion: 2
-        x: 176
-        y: 621
-        width: 199
-        height: 222
+        x: 0
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,8 +377,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a704656f1074d850800000000000000
-      internalID: 6400864250547668899
+      spriteID: c87bb9348d05a0e60800000000000000
+      internalID: 7929238983716616076
       vertices: []
       indices: 
       edges: []
@@ -339,10 +387,10 @@ TextureImporter:
       name: Moss_Giant_Walk_9
       rect:
         serializedVersion: 2
-        x: 711
-        y: 623
-        width: 182
-        height: 227
+        x: 512
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,8 +398,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d13d480534d63b550800000000000000
-      internalID: 6175399649936200477
+      spriteID: c9bf6920ab4eaa9a0800000000000000
+      internalID: -6220908447700419684
       vertices: []
       indices: 
       edges: []
@@ -360,10 +408,10 @@ TextureImporter:
       name: Moss_Giant_Walk_10
       rect:
         serializedVersion: 2
-        x: 1214
-        y: 619
-        width: 192
-        height: 230
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,8 +419,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bd0171bb9cd5b930800000000000000
-      internalID: 4158472392201538999
+      spriteID: dcc7cf59084327b50800000000000000
+      internalID: 6589386931673267405
       vertices: []
       indices: 
       edges: []
@@ -381,10 +429,10 @@ TextureImporter:
       name: Moss_Giant_Walk_11
       rect:
         serializedVersion: 2
-        x: 1718
-        y: 619
-        width: 195
-        height: 219
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,8 +440,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 563ea58c9f72b8770800000000000000
-      internalID: 8614022666037945189
+      spriteID: af5269cabd2c61740800000000000000
+      internalID: 5122495874929665530
       vertices: []
       indices: 
       edges: []
@@ -402,10 +450,10 @@ TextureImporter:
       name: Moss_Giant_Walk_12
       rect:
         serializedVersion: 2
-        x: 173
-        y: 105
-        width: 199
-        height: 208
+        x: 0
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,8 +461,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66885e890afb34ea0800000000000000
-      internalID: -5889653191189624730
+      spriteID: 718e7e56b61e99730800000000000000
+      internalID: 4006481194910214167
       vertices: []
       indices: 
       edges: []
@@ -423,10 +471,10 @@ TextureImporter:
       name: Moss_Giant_Walk_13
       rect:
         serializedVersion: 2
-        x: 689
-        y: 106
-        width: 189
-        height: 203
+        x: 512
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,8 +482,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ee44c2dbe3eaaa60800000000000000
-      internalID: 7686206316054073060
+      spriteID: 170c6a9759835f860800000000000000
+      internalID: 7563013363880870001
       vertices: []
       indices: 
       edges: []
@@ -444,10 +492,10 @@ TextureImporter:
       name: Moss_Giant_Walk_14
       rect:
         serializedVersion: 2
-        x: 1211
-        y: 106
-        width: 176
-        height: 209
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,8 +503,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cba166b0c5bd99470800000000000000
-      internalID: 8401987768211086012
+      spriteID: a0e83690f228dd0f0800000000000000
+      internalID: -1090572396221198838
       vertices: []
       indices: 
       edges: []
@@ -465,10 +513,10 @@ TextureImporter:
       name: Moss_Giant_Walk_15
       rect:
         serializedVersion: 2
-        x: 1730
-        y: 107
-        width: 167
-        height: 218
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,8 +524,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57cb4679d7d8c8b70800000000000000
-      internalID: 8902646133955017845
+      spriteID: 0c3685533d3775190800000000000000
+      internalID: -7973777264265894976
       vertices: []
       indices: 
       edges: []
