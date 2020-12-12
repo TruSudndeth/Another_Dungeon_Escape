@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Moss_Giant_Death : StateMachineBehaviour
+public class Enemy_Hit : StateMachineBehaviour
 {
     private bool OneShot = false;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
@@ -14,10 +14,10 @@ public class Moss_Giant_Death : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if(stateInfo.normalizedTime >= 1f && !OneShot)
+        if (stateInfo.normalizedTime > 0.1f && !OneShot)
         {
             OneShot = true;
-            animator.SetBool("IsDead", false);
+            animator.SetBool("Hit", false);
         }
     }
 
