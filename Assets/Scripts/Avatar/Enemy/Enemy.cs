@@ -6,7 +6,7 @@ using UnityEngine;
 public abstract class Enemy : MonoBehaviour
 {
     //ToDo's
-    //
+    // Enemy moves while Dead Must Fix
     [SerializeField]
     protected float Speed = 1;
     [SerializeField]
