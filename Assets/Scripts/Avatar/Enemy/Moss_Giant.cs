@@ -61,7 +61,7 @@ public class Moss_Giant : Enemy, IEnemy
 
     public void TakeDamage()
     {
-        health--;
+        health -= 25;
         if(health <= 0)
         {
             IsMoving = false;
