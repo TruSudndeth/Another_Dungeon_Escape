@@ -34,7 +34,6 @@ public class RegularSwordSwing : MonoBehaviour
     {
         if(StateChanged(ref swingState, swing))
         {
-            Debug.Log("this was a one shot");
             anim.SetBool("Swing", swing);
         }
         if(StateChanged(ref flipState, flip))

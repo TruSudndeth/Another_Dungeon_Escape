@@ -4,9 +4,19 @@ using UnityEngine;
 
 public class Moss_Giant : Enemy, IEnemy
 {
-    public override void TakeDamage()
+    public int Health { get { return health; } set { health = value; } }
+
+    public void TakeDamage(int Damage)
     {
-        health -= 25;
-        base.TakeDamage();
+        Health -= Damage;
+        Anim.SetBool("Hit", true);
+        IsMoving = false;
+        if (health <= 0 && !gameOver)
+        {
+            gameOver = true;
+            IsMoving = false;
+            Anim.SetBool("IsDead", true);
+            isDead = true;
+        }
     }
 }

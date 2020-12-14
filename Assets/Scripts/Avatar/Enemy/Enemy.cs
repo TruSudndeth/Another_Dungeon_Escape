@@ -20,12 +20,12 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField]
     private Vector2 WalkMinMaxTime;
 
-    private Animator Anim;
+    protected Animator Anim;
     private Rigidbody2D RB;
     private SpriteRenderer spriteRend;
-    private bool isDead = false;
-    private bool gameOver = false;
-    private bool IsMoving = false;
+    protected bool isDead = false;
+    protected bool gameOver = false;
+    protected bool IsMoving = false;
     private Vector2 ApplyAiMove;
     void Awake()
     {
@@ -37,10 +37,6 @@ public abstract class Enemy : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            TakeDamage();
-        }
         CalcMoves();
     }
 
@@ -69,16 +65,7 @@ public abstract class Enemy : MonoBehaviour
         FlipX();
         RB.velocity = new Vector2(ApplyAiMove.x, RB.velocity.y);
     }
-    public virtual void TakeDamage()
-    {
-        if (health <= 0 && !gameOver)
-        {
-            gameOver = true;
-            IsMoving = false;
-            Anim.SetBool("IsDead", true);
-            isDead = true;
-        }
-    }
+
 
     private IEnumerator IsDead()
     {

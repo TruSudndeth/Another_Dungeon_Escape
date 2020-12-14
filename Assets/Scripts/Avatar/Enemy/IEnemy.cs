@@ -4,5 +4,6 @@ using UnityEngine;
 
 public interface IEnemy
 {
-    void TakeDamage();
+    int Health { get; set; }
+    void TakeDamage(int Damage);
 }

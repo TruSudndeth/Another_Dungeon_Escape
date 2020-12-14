@@ -4,9 +4,19 @@ using UnityEngine;
 
 public class Spider : Enemy , IEnemy
 {
-    public override void TakeDamage()
+    public int Health { get { return health; } set { health = value; } }
+
+    public void TakeDamage(int Damage)
     {
-        health -= 50;
-        base.TakeDamage();
+        Health -= Damage;
+        IsMoving = false;
+        Anim.SetBool("Hit", true);
+        if (health <= 0 && !gameOver)
+        {
+            gameOver = true;
+            IsMoving = false;
+            Anim.SetBool("IsDead", true);
+            isDead = true;
+        }
     }
 }
