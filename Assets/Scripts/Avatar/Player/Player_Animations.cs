@@ -64,14 +64,13 @@ public class Player_Animations : MonoBehaviour, IPlayerAnimator
                 if (AnimationInput.x < 0)
                 {
                     AnimationInput.x *= -1;
-                    spriteRender.flipX = true;
-                    if (spriteRender.transform.localPosition.x > 0) spriteRender.transform.localPosition *= new Vector2(-1, 1);
+                    spriteRender.transform.localScale = new Vector3(-1, 1, 1);
                 }
                 else
                 {
                     AnimationInput.x *= 1;
                     spriteRender.flipX = false;
-                    if (spriteRender.transform.localPosition.x < 0) spriteRender.transform.localPosition *= new Vector2(-1, 1);
+                    spriteRender.transform.localScale = new Vector3(1, 1,1);
                 } 
             }
 

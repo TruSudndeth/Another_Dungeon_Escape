@@ -53,6 +53,7 @@ public class PlayerInput : CharacterPhysics
         FlipState();
         if (Input.GetMouseButtonDown(0) && !SwingAttack.Value)
         {
+            Debug.Break();
             SwingAttack.Value = true;
             StartCoroutine(ResetVariableNextFrame(SwingAttack));
         }

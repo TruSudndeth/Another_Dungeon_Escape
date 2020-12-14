@@ -90,9 +90,11 @@ public abstract class Enemy : MonoBehaviour
         if (ApplyAiMove.x > 0)
         {
             if (spriteRend.flipX) spriteRend.flipX = false;
+            if (spriteRend.transform.localPosition.x < 0) spriteRend.transform.localPosition *= new Vector2(-1, 1);
         }
         if (ApplyAiMove.x < 0)
         {
+            if (spriteRend.transform.localPosition.x > 0) spriteRend.transform.localPosition *= new Vector2(-1, 1);
             if (!spriteRend.flipX) spriteRend.flipX = true;
         }
     }
