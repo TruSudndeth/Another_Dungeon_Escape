@@ -82,17 +82,21 @@ public abstract class Enemy : MonoBehaviour
             }
         }
         CheckForCombat();
-        if(InCombat)
+        if (InCombat)
         {
             IsMoving = false;
             if (!Anim.GetBool("Attack"))
             {
-                if(playerDistance <= attackDistance)
+                if (playerDistance <= attackDistance)
                 {
 
                     Anim.SetBool("Attack", true);
                 }
             }
+        }
+        else
+        {
+            if (!Anim.GetBool("Attack")) IsMoving = true;
         }
         ApplyAiMove.x *= Speed;
         FlipX();
