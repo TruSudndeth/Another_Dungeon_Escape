@@ -19,6 +19,7 @@ public class Player_Attack : MonoBehaviour
         {
             SwordCollider.enabled = false;
             hit.TakeDamage(regular_Swing);
+            hit.Attacked();
         }
     }
 

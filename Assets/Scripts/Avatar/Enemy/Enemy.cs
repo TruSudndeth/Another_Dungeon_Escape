@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
+using TMPro;
 using UnityEngine;
 
 
@@ -41,6 +43,8 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField]
     private float attackRange = 0;
     private float playerDistance = 0;
+    private bool attacked = false;
+    private float Combat_Timmer = 0;
     void Awake()
     {
         boxCollider2D = GetComponent<BoxCollider2D>();
@@ -57,16 +61,25 @@ public abstract class Enemy : MonoBehaviour
 
     private void CalcMoves()
     {
-        if (PointA2B != null && IsMoving && !gameOver)
+        if (!EnemyPlayer && PointA2B != null && IsMoving && !gameOver)
         {
             ApplyAiMove = PointA2B.MoveToPoint(transform.position);
         }
-        else if (EnemyPlayer && playerDistance > boxCollider2D.size.x/2 + attackRange)
+        else if (EnemyPlayer && playerDistance_Bounds() && IsMoving && !gameOver)
         {
             ApplyAiMove = PointA2B.MoveToPlayer(EnemyPlayer.transform.position);
         }
         else
             ApplyAiMove = Vector2.zero;
+    }
+
+    private bool playerDistance_Bounds()
+    {
+        if (playerDistance > boxCollider2D.size.x / 2 + attackRange || playerDistance < -(boxCollider2D.size.x / 2 + attackRange))
+        {
+            return true;
+        }
+        else return false;
     }
 
     public void FixedUpdate()
@@ -82,16 +95,18 @@ public abstract class Enemy : MonoBehaviour
             }
         }
         CheckForCombat();
+        InCombatTimout();
         if (InCombat)
         {
-            IsMoving = false;
             if (!Anim.GetBool("Attack"))
             {
                 if (playerDistance <= attackDistance)
                 {
-
+                    IsMoving = false;
                     Anim.SetBool("Attack", true);
                 }
+                else
+                    IsMoving = true;
             }
         }
         else
@@ -119,15 +134,17 @@ public abstract class Enemy : MonoBehaviour
         if(hit2D && hit2D.collider.tag == "Player")
         {
             if(!EnemyPlayer)EnemyPlayer = hit2D.transform.gameObject;
-            playerDistance = hit2D.distance;
             InCombat = true;
-            return;
         }else
         {
-            if (EnemyPlayer) EnemyPlayer = null;
-            playerDistance = 0;
-            InCombat = false;
+            if (!attacked)
+            {
+                if (EnemyPlayer) EnemyPlayer = null;
+                playerDistance = 0;
+                InCombat = false; 
+            }
         }
+        if(EnemyPlayer) playerDistance = Vector3.Distance(EnemyPlayer.transform.position, transform.position);
     }
 
     private IEnumerator IsDead()
@@ -141,11 +158,17 @@ public abstract class Enemy : MonoBehaviour
     {
         while (!gameOver)
         {
-            IsMoving = false;
-            Anim.SetBool("Walking", false);
+            if (!attacked)
+            {
+                IsMoving = false;
+                Anim.SetBool("Walking", false);
+            }
             yield return new WaitForSeconds(Random.Range(IdleMinMaxTime.x, IdleMinMaxTime.y));
-            IsMoving = true;
-            Anim.SetBool("Walking", true);
+            if (!attacked)
+            {
+                IsMoving = true;
+                Anim.SetBool("Walking", true);
+            }
             yield return new WaitForSeconds(Random.Range(WalkMinMaxTime.x, WalkMinMaxTime.y));
         }
     }
@@ -169,5 +192,21 @@ public abstract class Enemy : MonoBehaviour
             }
             if (!spriteRend.flipX) spriteRend.flipX = true;
         }
+    }
+
+    private void InCombatTimout()
+    {
+        if (Combat_Timmer >= 0)
+        {
+            Combat_Timmer -= Time.deltaTime;
+        }
+        else { if (attacked) attacked = false; }
+    }
+ 
+
+    public void Attacked()
+    {
+        if (!attacked) attacked = true;
+        Combat_Timmer = 10;
     }
 }
