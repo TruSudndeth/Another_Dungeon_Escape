@@ -14,7 +14,7 @@ public class Enemy_Attack : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if(stateInfo.normalizedTime > 0.1f && !OneShot)
+        if(stateInfo.normalizedTime > 0.95f && !OneShot)
         {
             OneShot = true;
             animator.SetBool("Attack", false);

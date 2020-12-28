@@ -16,6 +16,7 @@ public class RegularSwordSwing : MonoBehaviour
     private bool flipState = false;
     private bool swing = false;
     private bool swingState = false;
+    private bool grounded = false;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,7 @@ public class RegularSwordSwing : MonoBehaviour
     void Update()
     {
         swing = playerAnimation.Swing;
+        grounded = playerAnimation.Grounded;
         flip = CopyFlipStateSprite.flipX;
     }
 
@@ -34,7 +36,7 @@ public class RegularSwordSwing : MonoBehaviour
     {
         if(StateChanged(ref swingState, swing))
         {
-            anim.SetBool("Swing", swing);
+            if(grounded)anim.SetBool("Swing", swing);
         }
         if(StateChanged(ref flipState, flip))
         {

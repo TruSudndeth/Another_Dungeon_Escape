@@ -49,4 +49,11 @@ public class MoveAnB : MonoBehaviour
         else
             CurrentPoint = PointB.position;
     }
+
+    public Vector2 MoveToPlayer(Vector3 _playerTransoform)
+    {
+        Vector2 _moveTowards = Vector2.zero;
+        _moveTowards = _playerTransoform - transform.position;
+        return _moveTowards.normalized;
+    }
 }

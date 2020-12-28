@@ -9,11 +9,12 @@ public class Player_Animations : MonoBehaviour, IPlayerAnimator
     private Rigidbody2D RBCharacter;
     private PlayerInput _PlayerInput;
     private SpriteRenderer spriteRender;
-    
+
     private bool swing = false;
     public bool Swing { get { return swing; } }
     private bool Jumped = false;
     private bool grounded = false;
+    public bool Grounded { get { return grounded; } }
     private bool FlipSprite = false;
     private int InvertAnimation = 1;
     private Vector2 AnimationInput;

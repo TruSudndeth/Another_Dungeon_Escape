@@ -9,10 +9,10 @@ public class Spider : Enemy , IEnemy
     public void TakeDamage(int Damage)
     {
         Health -= Damage;
-        IsMoving = false;
         Anim.SetBool("Hit", true);
         if (health <= 0 && !gameOver)
         {
+            InCombat = true;
             gameOver = true;
             IsMoving = false;
             Anim.SetBool("IsDead", true);
