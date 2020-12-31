@@ -9,6 +9,7 @@ public abstract class Enemy : MonoBehaviour
 {
     //ToDo's
     // Enemy moves while Dead Must Fix
+    // Spider moves while iddle mustFix
     [SerializeField]
     private LayerMask layerMask;
     [SerializeField]
