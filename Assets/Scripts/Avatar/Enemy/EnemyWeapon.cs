@@ -17,7 +17,7 @@ public class EnemyWeapon : MonoBehaviour
         if(collision.tag == "Player")
         {
             SwordCollider.enabled = false;
-            Debug.Log("PlayerHit");
+            Debug.Log("!! FIX !! player hit Call add a hurt interface");
         }
     }
     public void ToggleBoxCollider()

@@ -176,7 +176,6 @@ public abstract class Enemy : MonoBehaviour
     {
         if (ApplyAiMove.x > 0)
         {
-            //if (spriteRend.flipX) spriteRend.flipX = false;
                 spriteRend.transform.localScale = new Vector3(1, 1, 1);
                 LookDirection = Vector2.right;
             
@@ -185,7 +184,6 @@ public abstract class Enemy : MonoBehaviour
         {
                 spriteRend.transform.localScale = new Vector3(-1, 1, 1);
                 LookDirection = Vector2.left;
-            //if (!spriteRend.flipX) spriteRend.flipX = true;
         }
     }
 
