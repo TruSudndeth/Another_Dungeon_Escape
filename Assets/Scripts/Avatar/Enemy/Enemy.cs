@@ -176,21 +176,16 @@ public abstract class Enemy : MonoBehaviour
     {
         if (ApplyAiMove.x > 0)
         {
-            if (spriteRend.flipX) spriteRend.flipX = false;
-            if (spriteRend.transform.localPosition.x < 0)
-            {
-                spriteRend.transform.localPosition *= new Vector2(-1, 1);
+            //if (spriteRend.flipX) spriteRend.flipX = false;
+                spriteRend.transform.localScale = new Vector3(1, 1, 1);
                 LookDirection = Vector2.right;
-            }
+            
         }
         if (ApplyAiMove.x < 0)
         {
-            if (spriteRend.transform.localPosition.x > 0)
-            {
-                spriteRend.transform.localPosition *= new Vector2(-1, 1);
+                spriteRend.transform.localScale = new Vector3(-1, 1, 1);
                 LookDirection = Vector2.left;
-            }
-            if (!spriteRend.flipX) spriteRend.flipX = true;
+            //if (!spriteRend.flipX) spriteRend.flipX = true;
         }
     }
 
